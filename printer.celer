@@ -1,0 +1,27 @@
+printer:
+- wb .dir(11:00) super
+- _Korok::C74
+- _Material<Phantom Helmet>:
+    notes: drop down and get dlc chest
+    coord: [-1200.47, 152.65, 1229.24]
+- Run out and blss to dlc chest
+- _Material<Phantom Greaves>:
+    coord: [-507.27, 130.00, 609.95]
+- Blss to dlc chest
+- _Material<Phantom Armor>:
+    notes: get radish+wood
+    coord: [-245.80, 124.56, -86.58]
+- 2x wb. dir(12:00) super
+- _Material<Ancient Arrow x3>
+- _Material<Arrow x 5>
+- _Equipment::Bow<Royal Bow>:
+    coord: [-252.19, 210.48, -741.07]
+- _Equipment::Weapon<Thunderblade>
+- wb .dir(4:30)
+- _Korok::C29
+- Rupee Printer
+- _Korok::C28
+- _Korok::C32
+- _Korok::C30
+- _Warp::Tower::GreatPlateau
+  

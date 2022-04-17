@@ -1,0 +1,245 @@
+ruta:
+- _Warp::TechLab::Hateno:
+        line-color: "green"
+- wb .dir(2:00)
+- _Korok::N44
+- wb chain .dir(11:00) to naydra
+- watch naydra cutscene and shoot an eye:
+    coord: [3937.25,1346.375]
+- wb .dir(3:00)
+- _Korok::N24
+- wb .dir(6:00)
+- Shoot 2nd naydra Eye
+- wb .dir(5:00)
+- _Korok::N31
+- wb .dir(7:30)
+- _Korok::N39
+- midair back to race start and shoot 3rd naydra eye
+- wb .dir(10:00) Far (can try for vr super)
+- _Korok::N21
+- wb .dir(3:00)
+- _Korok::N22
+- _Korok::N29:
+    notes: run to the edge, make cryo block next to lilypad and glide over
+- _Korok::N30
+- wb .dir(1:30)
+- Shoot naydra eye
+- Shoot naydra to get scale
+- Drop scale into fountain:
+    coord: [3937.25,1346.375]
+    movements:
+        - to: [3954.5,1348.5]
+          warp: Yes
+- _Shrine::JitanSami
+- _Tod::Morning
+- Run out and wb .dir(3:00) + wb .dir(12:00)
+- _Korok::N18
+- 2x wb to naydra
+- Shoot horn:
+    coord: [3999,1277]
+- wb back to korok:
+    coord: [3745,1161]
+- _Tod::Morning
+- 2x wb to naydra
+- shoot claw:
+    coord: [3999,1277]
+- Pick up both parts
+- wb(12:00) to blss spot:
+    coord: [3898.5,1252.5]
+- Blss to akkala Tower
+- _Tower::Akkala
+- wb .dir(2:00)
+- _Korok::A37
+- wb .dir(7:30)
+- kill 2 guardian stalkers(2aa): 
+    coord: [3634.5,-1599]
+- Pick up parts and hope for 15spring:
+    coord: [3683,-1511.5]
+- wb .dir(2:30) super
+- _Npc<Hudson>:
+    coord: [3987,-1606.5]
+    notes: Give 10 wood
+- 2x wb .dir(6:30)
+- _Korok::A49:
+    notes: pick up some appels
+- wb .dir(10:00)
+- _Shrine::DahHesho
+- _Korok::A47:
+    notes: run to korok
+- wb .dir(6:30)
+- _Discover<East Sokkala Bridge>:
+    coord: [3863.5,-1094]
+- wb .dir(3:30)
+- _Korok::A51
+- wb .dir(6:00)
+- _Discover<Sokkala Bridge>:
+    coord: [3686,-999.5]
+- wb .dir(3:00) square
+- _Korok::A52
+- wb .dir(1:30)
+- _Boss::Hinox::Blue:
+    notes: bomb arrows
+    coord: [3288,-1254.5]
+- wb .dir(3:00)
+- _Korok::A50
+- wb .dir(1:30)
+- _Korok::E39
+- wb .dir(11:30)
+- _Shrine::SahDahaj
+- max height wb .dir(12:00)
+- _Korok::E34
+- _Korok::E30:
+    notes: jump down .dir(1:30) to block puzzle
+- wb .dir(3:00)
+- _Korok::E29
+- wb .dir(7:00) + wb .dir(3:00)
+- _Korok::E32
+- wb .dir(5:00) square:
+    coord: [2334,-1486]
+- _Korok::E33
+- gale+wbs .dir(3:00):
+    gale: 1
+    notes: unequipp flamable stuff and bomb arrows :)
+- _Tower::Eldin
+- wb .dir(1:30)
+- _Korok::E27
+- wb .dir(8:00)
+- _Boss::Talus::Igneo:
+    coord: [1795.5,-1725]
+    fury: 3
+- wb .dir(1:00)
+- _Korok::E26
+- wb .dir(7:30)
+- _Korok::E31
+- _Memory::EldinCanyon
+- wb .dir(1:00)
+- _Korok::E24
+- wb .dir(1:00)
+- _Korok::E25
+- wb .dir(12:00)
+- glide to southern mine:
+    coord: [1587.5,-1984.5]
+- Pick up 10 Fireproof lizards for quest:
+    coord: [1639,-1947.25]
+- _Npc<Fireproof armor guy>:
+    coord: [1715.75,-1974.25]
+- _Tod::Night:
+    coord: [1691.75,-1998.75]
+- _Npc::Goron<Greyson>:
+    coord: [1651,-1960.75]
+- wb .dir(10:30)
+- _Korok::E19
+- 2x wb .dir(1:30)
+- _Korok::E18
+- wb .dir(12)
+- _Korok::E13:
+    coord: [1664.5,-2527.75]
+- run into cutscene:
+    notes: refresh burn timer
+    coord: [1603.75,-2552]
+- wb .dir(11:00):
+    coord: [1603.75,-2552]
+- _Korok::E14
+- wb .dir(7:30)
+- _Korok::E15
+- _Shop<Armor shop>:
+    notes: glide down, buy fireproof boots
+    coord: [1642.25,-2408.5]
+- _Shop<Food shop>:
+    notes: buy 1 goron spice
+    coord: [1685.75,-2464.75]
+- _Npc::Goron<Goron Boss>:
+    notes: talk to start rudania quest
+    coord: [1709,-2446.75]
+- wb .dir(1:00)
+- _Shrine::ShaeMosah
+- wb .dir(11:30):
+    notes: super
+- _Npc::Goron<Yunobo>:
+    notes: hope for unloaded rocks, if not clip in
+    coord: [1634,-2938]
+- _Chest<10x Ice arrow>
+- _Npc::Goron<Yunobo>:
+    notes: talk again
+- _Korok::E08:
+    gale: 1
+- wb .dir(11:00)
+- _Shrine::ShoraHah
+- _Korok::E07:
+    notes: ride cart a bit, stasis, gale
+    gale: 1
+- wb .dir(8:30)
+- _Boss::Talus::Igneo:
+    notes: ice arrow+sledgehammer, pick up parts until 10 flint
+    coord: [1341,-3053]
+- wb .dir(8:00)
+- _Korok::K08
+- wb .dir(0:30)
+- _Korok::K04
+- wb .dir(8:00)
+- _Boss::Hinox::Blue:
+    coord: [349,-3114]
+    notes: dont use bomb arrow, fury if its up
+- Put the orb in the pedestal
+- _Shrine::KetohWawai:
+    notes: pick up core if less than 2
+- _Tod::Morning
+- wb .dir(6:00)
+- _Korok::K07
+- wb .dir(9:30)
+- _Korok::K06
+- wb .dir(1:00)
+- _Korok::K01
+- wb .dir(3:00)
+- _Korok::K02
+- Shoot dinraal
+- stasis scale and wb there
+- get part
+- _Tod::Morning
+- Fight Lynel
+- Pick up lynel hoof, arrows, crusher
+- Shoot dinraal until 1 scale/horn/claw
+- _Korok::K03
+- _Korok::E01
+- _Warp::Tower::Akkala:
+        line-color: "yellow"
+- wb .dir(6:30)
+- _Korok::Z04
+- wb .dir(4:00)
+- _Korok::Z05
+- wb .dir(3:00) square
+- _Material<Zora Helmet>:
+    coord: [3462,-894]
+- wb .dir(4:00) super
+- _Korok::Z08
+- wb .dir(7:30)
+- _Snap::Quest<Red Lynel>:
+    coord: [3857.5,-574]
+- drop down to zora monument:
+    coord: [3722,-532.5]
+- wb .dir(4:30)
+- _Boss::Talus::Luminous:
+    notes: can fury(3) if up
+    coord: [3988,-159]
+- wb .dir(2:00)
+- _Korok::Z27
+- 2x wb .dir(12:00)
+- _Korok::Z19
+- _Korok::Z20:
+    notes: 2 flowers -> mag boulder -> rest of flowers
+- wb .dir(8:30) far
+- _Korok::Z26
+- wb .dir(10:30)
+- _Korok::Z16
+- Drop down
+- _Npc::ZoraMale<Fishdrama pt.1>
+- _Shop<Food shop>:
+    notes: buy arrows, swift violet, fish, rice, salt
+    coord: [3323.25,-490.875]
+- _Shrine::NeezYohma
+- _Npc::ZoraMale<Fishdrama Pt.2>
+- 2x wb .dir(4:00)
+- _Korok::Z18
+- wb .dir(4:30)
+- _Npc::ZoraMale<Sidon>
+- Ruta

@@ -1,0 +1,73 @@
+cleanup:
+- _Material<Pick up entire set of the wild>
+- _Warp::Shrine::DahHesho:
+    line-color: "black"
+- wb .dir(3:00)
+- Open Fairy fountain
+- Upgrade all permanent armor:
+    notes: Set of the wild, Zora set, Champions tunic
+    coord: [4088,-1366]
+- _Korok::A48
+- wb .dir(12:00)
+- _Npc<Kilton>:
+    coord: [4146,-1606]
+- Sell until 707 mon
+- get 1 monster extract, moster saddle/bridle
+- get all 3 medallians
+- wb .dir(9:00)
+- _Npc<Parents love quest>:
+    coord: [3976,-1618]
+    notes: talk twice
+- _Npc<Guardian killing quest>
+- _Npc<Hudson>:
+    notes: Wedding, talk to hudson again after
+- _Warp::Shrine::ShadaNaw
+- wb .dir(3:00)
+- _Korok::H21
+- wb .dir(10:30)
+- _Korok::H12 
+- _Warp::Shrine::JolooNah:
+    line-color: "purple"
+- wb .dir(6:00)
+- _Npc<Sell Horse to guy>:
+    coord: [-2026,1870]
+    notes: warp horse
+- 2 gale up:
+    gale: 2
+- _Korok::W07
+- wb .dir(12:00) square
+- _Npc<Sesami's Friend>:
+    coord: [-2053,1746]
+- wb .dir(9:00)
+- _Npc<Sesami's Friend>:
+    coord: [-2164,1718]
+- jump down .dir(10:00)
+- _Npc<Sesami's Friend>:
+    coord: [-2188,1690]
+- wb .dir(7:30)
+- _Korok::W08
+- _Korok::G32
+- gale + wb .dir(3:30)
+- _Boss::Talus::Luminous:
+    fury: 3
+    notes: fury if up
+    coord: [-2275,1977]
+- wb .dir(10:00)
+- _Korok::W10
+- wb .dir(8:00)
+- _Npc<Complete Rushroom quest>:
+    coord: [-2785,2253]
+- _Npc<Sesami>:
+    coord: [-2827,2268]
+    notes: finish quest, should have all side/shrine quests now
+- wb .dir(9:00)
+- _Discover<Gerudo dessert gateway>:
+    coord: [-2939,2337]
+- _Warp::Shrine::KeoRuug
+- Buy all hestu upgrades+get golden poop
+- Finish blupee quest
+- Finish trials quest
+- _Warp::SOR
+- Final dungeon skip
+- Kill maz Koshia
+- GGs

@@ -1,0 +1,41 @@
+plateau:
+- Pick up sheikah slate
+- Clip out of SOR 
+- Activate ToD Cutscene
+- _Equipment::Weapon<Tree Branch>:
+    coord: [-1034.19, 249.09, 1847.06]
+- Run to bokocamp
+- pick up 4-5 hylianshrooms, seared steak, 6 spicy peppers, potlid
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- Shieldsurf to ToT
+- Clip in and get Traveler's bow
+- _Equipment::Bow<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- Break Pot and Pick up 5 Arrows
+- Use another Pot to Blss to Bombs and Clip in
+- _Shrine::JaBaij
+- Blss to Magnesis and Clip in:
+    notes: Old man text options 2-1-1-2
+- _Shrine::OmanAu
+- Wb Plateau Tower
+- _Tower::GreatPlateau
+- Jump down for Quest:
+    notes: use tree branch for fdc, can throw and leave branch
+- Blss to old man's Hut:
+    notes: Climb up 2 steps on the tower for Blss
+- _Korok::P18:
+    notes: on top of old man's hut
+- Pick up 2 stamella shrooms, 2 spicy peppers, 1 hylianshroom, 1 baked apple (try not to eat if possible), axe
+- _Equipment::Weapon<Woodcutters Axe>
+- Wb to Stasis
+- _Shrine::OwaDaim:
+    notes: can get Sledgehammer, not required
+- boulderlift:
+    notes: 4 hits with hammer/axe
+- btb/blss to cryonis
+- _Shrine::KehNamut
+- Blss to ToT
+- _Korok::P11:
+    notes: try to land up there from blss
+

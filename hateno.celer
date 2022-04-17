@@ -1,0 +1,118 @@
+hateno:
+- Blss to kaya wan
+- _Shrine::KayaWan:
+   notes: get core in here if 2 or less
+- wb .dir(4:00)
+- _Shrine::DakaTuss
+- wb .dir(5:00) + wb .dir(5:00) + midair .dir(6:00) to impa
+- _Npc::SheikaFemale<impa>:
+    notes: Talk to her twice
+    coord: [1772.71, 229.43, 984.31]
+- glide .dir(5:00) Potlid
+- _Equipment::Shield<Pot Lid>:
+    coord: [1798.63, 219.90, 1011.16]
+    notes: pick up while gliding to not have koko talk to you
+- _Tod::Morning
+- Enter Shop
+- 2bow overload:
+      notes: Start on FDB
+- use overload to dupe GEB over travelers bow and hold smuggle 5 peppers:
+        notes: unequipp phantom armor
+- _Shop<Kakariko shop>:
+    notes: Buy 12 carrots, 5 eggs, 1 boko guts(can skip if you have more than 6 cores or a giant ancient core)
+    coord: [1792.59, 222.43, 1028.15]
+- Sell Peppers:
+   notes: Buy stuff either before selling pepper, or after transmutation, in between it will mess up
+- _Material<Energetic Rhino beelte[6/15]>:
+    notes: After picking up the beetle pause and transmutate, can now also drop bow to dupe GEB
+    coord: [1811.23, 221.34, 1050.06]
+- _Shop<Arrow Shop>:
+    notes: Buy all arrows
+    coord: [1827.17, 223.97, 1045.49]
+- _Npc::SheikaFemale<Arrow Shop Lady>:
+    notes: talk to her twice for quest
+- Run out and get 2 Hearts at statue:
+    coord: [1840.12, 218.54, 997.89]
+- wb .dir(12:00)
+- _Shrine::TalohNaeg:
+    notes: Get shield in here
+- wb .dir(12:00)
+- _Material<3x Silent Princess>
+- _Material<6x Blue Nightshade>:
+    coord: [1872.07, 344.11, 815.89]
+- Blss to Hateno
+- _Npc<Spring of wisdom quest>:
+    coord: [3381.11, 226.15, 2105.53]
+- _Material<3x Frog>
+- wb .dir(1:00)
+- _Korok::N42
+- Glide back and do hold smuggle with torch:
+    coord: [3444.625,1980]
+- 2x wb .dir(3:30) to tech lab:
+    notes: no instant wb or bomb will blow up
+    coord: [3778.375,2125.25]
+- _Npc<Purah>:
+    notes: get camera+all upgrades
+- _Npc<sunshroom sensing guy>:
+    notes: do quest up until you get hearty truffle, then leave
+- _Korok::N48:
+    away: true
+- _Korok::N43
+- _Npc<Sheep rustlers quest>:
+    coord: [3624.75,2098.6875]
+- _Npc<Bolson>:
+    notes: talk to him once, to start him walking towards cooking pod
+    coord: [3318.875,2301.25]
+- _Equipment::Weapon<Iron Sledgehammer x2>
+- _Cook<speed potion(3frog+carrot+boko gut/core), elixir(cold darner+ancient part)>
+- wb .dir(10:30) square
+- Enter myahm agana with camera equipped for heartdupe
+- _Shrine::MyahmAgana
+- Heartdupe:
+    coord: [3283.25,2197.25]
+- wb .dir(5:00) bolson
+- buy house, send hudson on his way, buy all house ubgrades:
+    coord: [3331.22, 235.28, 2284.61]
+    notes: reload somewhere in between house upgrades to get rid of glider glitch
+- _Korok::N59
+- wb .dir(9:00)
+- _Korok::N58
+- wb .dir(7:30)
+- _Material<Hearty Bass x5>
+- wb .dir(10:00)
+- _Korok::N50
+- _Korok::N49
+- 2x wb .dir(11:00)
+- _Tower::Hateno
+- 2x wb .dir(7:30)
+- _Korok::F06
+- wb .dir(8:00) square
+- _Korok::F09
+- wb .dir(9:00)
+- _Korok::F08
+- wb .dir(3:00)
+- _Korok::F12
+- wb .dir(8:30)
+- _Korok::F11
+- wb .dir(7:30)
+- Farosh farm:
+    notes: farm 1 horn/scale/claw
+    coord: [1750.25,3001]
+- _Snap::Elite<Farosh>
+- wb .dir(7:30)
+- _Korok::F26
+- wb .dir(7:30)
+- Farm 5 beetles:
+    coord: [1499.75,3344.5]
+- _Korok::F34:
+    notes: run/climb here, can skip if its past 7am
+- wb .dir(5:00)
+- pick up axe on top of stable
+- _Korok::F41:
+    notes: jump down and blow up leaves with a bomb
+- _Npc<Thunder Magnet lady x2>
+- Run behind stable, get 2 razorshroom and stuff from boxes
+- Run to Shai Utoh
+- _Shrine::ShaiUtoh
+
+

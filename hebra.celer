@@ -1,0 +1,348 @@
+hebra:
+- Can now stop picking up wood from trees:
+    notes: try to keep woodcount at like 10 for tod
+- run out and wb .dir(1:30)
+- _Korok::N19
+- wb .dir(10:30) + wb .dir(9:00):
+    coord: [3424,1112]
+- _Korok::N17
+- wb .dir(5:00)
+- _Korok::N23
+- wb .dir(9:30)
+- _Boss::Hinox::Red:
+    notes: 4bomb arrows
+    coord: [3253,1335]
+- wb .dir(10:30)
+- _Memory::LanayruRoad:
+    coord: [3145,1153]
+- 2x wb .dir(11:00)
+- _Boss::Hinox::Blue:
+    coord: [2998,783]
+    fury: 3
+    notes: 3 fury
+- 2x wb .dir(8:00)
+- _Korok::N13 
+- wb .dir(7:00)
+- _Korok::N15
+- wb .dir(4:00)
+- _Korok::N16
+- wb .dir(6:00)
+- _Shrine::DowNaeh
+- wb .dir(12:00) + wb .dir(7:30)
+- _Korok::N20 
+- wb .dir(10:00)
+- _Boss::Hinox::Red:
+    coord: [2414,1177]
+    notes: 4 bomb arrow
+- wb .dir(11:30)
+- _Korok::N11
+- wb .dir(0:30)
+- _Korok::N05 
+- wb .dir(9:00)
+- mount a deer:
+    coord: [2569,553]
+- ride deer to pedestal and activate it:
+    coord: [2594,453]
+- _Npc<Kass>:
+    notes: get quest
+- wb .dir(8:30)
+- _Korok::N04
+- wb .dir(10:30)
+- _Korok::N02 
+- wb .dir(3:00)
+- _Korok::N03
+- _Shrine::MezzaLo
+- wb .dir(3:00)
+- _Korok::Z42 
+- 2x wb .dir(3:00)
+- _Korok::Z43 
+- wb .dir(6:30)
+- _Korok::N06
+- wb .dir(2:00)
+- _Korok::Z44
+- wb .dir(3:00)
+- _Boss::Hinox::Blue:
+    coord: [3533,376]
+    fury: 3
+- wb .dir(11:00)
+- Zora Monument:
+    coord: [3396,53]
+- wb .dir(10:00):
+    coord: [3265,43]
+- run .dir(9:30)
+- _Korok::Z33
+- wb .dir(8:30)
+- Zora Monument:
+    coord: [3096,66]
+- wb .dir(1:00) square
+- _Discover<Luto's Crossing>
+- _Korok::Z32
+- pick up 2 lotus seeds if you need
+- wb .dir(11:00)
+- Zora Monument:
+    coord: [3060,-222.5]
+- wb .dir(4:00)
+- Zora Monument:
+    coord: [3261,-145.5]
+- wb .dir(1:00)
+- _Korok::Z25
+- wb .dir(10:30)
+- SCW up to sato koda:
+    gale: 1
+    notes: sj scw -> gale
+    coord: [3154,-418]
+- _Shrine::SatoKoda
+- Kill enemy camp
+- get moblin club
+- Discover shrine
+- wb .dir(5:00)
+- make noon if needed
+- _Npc::ZoraMale<Frog Catching>:
+    coord: [3303.25,-474]
+- _Npc::ZoraMale<Luminous stones>:
+    coord: [3289.375,-450.875]
+- _Npc::ZoraFemale<Finish Letterquest>:
+    coord: [3267.75,-481.375]
+- _Npc::ZoraFemale<Hinox Ralis Pond quest>:
+    coord: [3310.25,-542.25]
+- _Npc::ZoraMale<Zora Monument quest>:
+    coord: [3340,-562.5]
+- _Npc::ZoraMale<Kapson>:
+    notes: send to TT
+    coord: [3331.25,-529.625]
+- _Npc::ZoraFemale<Lynel Safari quest>:
+    coord: [3346.25,-505.5]
+- wb .dir(2:00)
+- do DLC shrinequest
+- _Shrine::MahEliya
+- wb .dir(3:00)
+- _Korok::A55
+- wb .dir(1:00)
+- _Korok::A54
+- wb .dir(2:00)
+- _Korok::A53
+- wb .dir(9:00)
+- _Korok::Z07
+- run .dir(12:00)
+- glide down, get all rushrooms
+- _Korok::Z06
+- wb .dir(12:00)
+- _Korok::Z01
+- run .dir(6:00)
+- Stasislaunch slab
+- _Shrine::KahMael
+- _Tod::Morning
+- Gale + midair(4:30):
+    gale: 1
+- Activate DLC shrine
+- _Shrine::KeeDafunia
+- _Warp::VahRuta:
+    line-color: "black"
+- Waterblight refight phase1:
+    fury: 1
+    notes: flury rush -> full attack -> charged attack with fury
+- Waterblight refight phase2:
+    fury: 2
+    notes: 3 headshots -> charged attack with fury x2
+- wb .dir(12:00)
+- _Korok::Z15
+- wb .dir(8:30)
+- _Korok::Z14
+- wb .dir(7:00)
+- _Tower::Lanayru
+- wb .dir(3:00)
+- _Boss::Hinox::Black:
+    notes: use leftover furys, rgc
+    coord: [2490,-127]
+- wb .dir(1:00)
+- _Korok::Z22
+- wb .dir(5:00)
+- _Korok::Z31
+- wb .dir(1:00)
+- _Korok::Z23 
+- wb .dir(9:30)
+- _Discover<Inogo Bridge>
+- wb .dir(10:00)
+- _Shrine::SohKofi
+- wb .dir(9:30):
+    coord: [2081,-301]
+- _Korok::Z13
+- wb .dir(2:00):
+    coord: [2401,-803]
+- _Korok::E45
+- 2x wb .dir(0:30)
+- _Shrine::TahMuhl
+- wb .dir(4:00) + wb .dir(3:00)
+- _Korok::E44
+- wb .dir(1:00)
+- _Shrine::MoaKeet
+- wb .dir(9:00)
+- _Npc<Tah muhl quest>:
+    coord: [2617,-1148]
+- wb .dir(1:00)
+- _Korok::E40 
+- wb .dir(11:30) square
+- _Korok::E38
+- wb .dir(8:00) square
+- _Discover<Maw of Death Mountain>:
+    coord: [2402,-1352]
+- wb .dir(6:00)
+- _Korok::E42 
+- _Korok::E41:
+    notes: shoot from E42
+- wb .dir(7:00)
+- _Korok::E43 
+- wb .dir(1:00) square:
+    coord: [2277,-1231]
+    notes: pick up rock and carry it to circle(golden gauntlets)
+- _Korok::E37
+- wb .dir(9:00)
+- _Korok::E36
+- _Warp::Tower::Akkala
+- wb .dir(5:00)
+- _Korok::A46
+- wb .dir(10:00)
+- _Discover<Akkala Bridge Ruins>:
+    coord: [3141,-1390]
+- Pick up rock:
+    coord: [3095,-1351]
+- _Korok::A45 
+- wb .dir(2:00)
+- _Korok::A43
+- gale twice:
+    gale: 1
+- _Korok::A42 
+- wb .dir(11:00)
+- _Korok::A41 
+- wb .dir(1:00)
+- _Korok::A40 
+- drop down .dir(1:00)
+- _Korok::A39
+- wb .dir(10:00)
+- _Shrine::ZeKasho
+- wb .dir(3:00) square
+- _Npc<2 Sisters, finish quest>:
+    coord: [3154,-1694]
+- wb .dir(3:00) far; super
+- _Npc<Hudson>:
+    coord: [3974,-1635]
+- wb .dir(2:00)
+- _Korok::A34 
+- 2x wb .dir(4:30)
+- _Korok::A44
+- Shieldsurf down doing A35 .dir(1:30)
+- _Korok::A35 
+- Read Stone for quest
+- run .dir(4:30) block puzzle
+- _Korok::A36
+- Blss Orb to Shrine
+- _Shrine::RitaagZumo
+- _Tod::Night:
+    notes: can skip if its past 8:45 pm
+- run .dir(6:00)
+- _Korok::A33
+- wb .dir(10:00)
+- _Boss::Hinox::Stal:
+   notes: wait until explotion with warping
+   coord: [4176,-2223]
+   fury: 3
+- _Warp::Shrine::ShadaNaw:
+    line-color: "darkblue"
+- wb .dir(10:00) super
+- _Korok::H10
+- wb .dir(3:00)
+- _Korok::H11
+- wb .dir(10:30)
+- _Korok::H09
+- Gale+midair .dir(10:30):
+    gale: 1
+- _Korok::H04
+- wb .dir(9:00)
+- _Boss::Hinox::Stal:
+    notes: rgc
+    coord: [-4254,-3772]
+- wb .dir(9:00)
+- _Korok::H01 
+- run .dir(10:30)
+- _Shrine::HiaMiu
+- wb .dir(7:00)
+- ride updraft
+- midair wb chain .dir(6:00)
+- _Korok::H23 
+- wb .dir(1:00)
+- _Discover<Sherfin's Secret Hot Spring>:
+    coord: [-4316,-3478]
+- gale+midair .dir(1:00):
+    gale: 1
+    coord: [-4261,-3589]
+- _Korok::H07 
+- 2x wb .dir(3:00)
+- _Korok::H08
+- wb .dir(12:00) square
+- get skew on iceblock
+- _Korok::H02:
+    notes: iceblock on the left
+- Clip inside moutain
+- Clip back in bounds:
+    coord: [-4106,-3696]
+- _Korok::H03 
+- _Snap::Quest<Leviathan>
+- _Shrine::ToQuomo
+- _Warp::Shrine::ShadaNaw:
+    line-color: "lightblue"
+- wb .dir(8:00) far (super?)
+- _Shrine::MozoShenno
+- gale+midair .dir(7:30)
+- _Korok::H26 
+- 2x wb .dir(1:00)
+- _Korok::H19
+- wb .dir(9:30)
+- _Korok::H18
+- wb .dir(9:30)
+- _Korok::H17 
+- wb .dir(6:30)
+- _Korok::H24
+- 2x wb .dir(3:30)
+- _Korok::H25 
+- 2x wb .dir(8:30)
+- _Korok::H32 
+- wb .dir(5:30)
+- _Korok::H40 
+- wb .dir(10:00)
+- _Boss::Hinox::Black:
+    coord: [-4534,-2698]
+    fury: 3
+    notes: 3 fury
+- wb .dir(5:30)
+- Start race korok:
+    coord: [-4490,-2516]
+- wb .dir(4:30)
+- _Korok::H53 
+- wb .dir(7:30)
+- _Korok::H60 
+- wb .dir(6:00)
+- _Korok::T08
+- wb .dir(1:30)
+- _Korok::T06:
+    notes: finish race korok
+- shieldsurf .dir(3:00)
+- _Korok::T07
+- wb .dir(1:30)
+- _Korok::T01 
+- 2x wb .dir(11:30):
+    coord: [-4203.5,-2777]
+    notes: start flowerchase
+- _Korok::H39
+- Jump down
+- _Discover<Sturnida Secret Hot Spring>:
+    coord: [-4112.5,-2718.5]
+- Ride updraft up
+- wb .dir(6:00) out of updraft:
+    coord: [-4160,-2579.5]
+- _Korok::H41 
+- shielsurf .dir(4:30)
+- _Korok::H42 
+- wb .dir(3:00)
+- follow cave until maka rah:
+    coord: [-3987,-2543.5]
+- _Shrine::MakaRah

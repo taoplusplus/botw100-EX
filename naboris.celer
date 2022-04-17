@@ -1,0 +1,159 @@
+naboris:
+- _Warp::Shrine::TalohNaeg:
+        line-color: "blue"
+- _Npc::SheikaMale<Pumpkin guy>:
+    notes: shieldsurf
+    coord: [1870.75,972.25]
+- wb .dir(9:00)
+- _Npc::SheikaFemale<Impa>:
+    coord: [1774,985.25]
+- _Shop<Arrow Shop>:
+    notes: Buy all arrows
+    coord: [1825.75,1040.5]
+- _Shop<Food Shop>:
+    notes: Buy all carrots
+    coord: [1794.25,1029]
+- wb .dir(3:00) + midair .dir(4:30)
+- Kill maraca boko camp:
+    notes: 2 bomb arrows in the middle
+    coord: [2171.375,1368.125]
+- _Material<Hestu's Maracas>
+- _Korok::D21:
+    notes: glide here
+- wb .dir(8:30)
+- _Npc<Hestu>:
+    notes: Get 2 Bow slots
+- wb .dir(8:00)
+- _Korok::D20
+- wb .dir(11:00)
+- _Korok::D19
+- wb .dir(10:30)
+- _Korok::D18
+- _Warp::Shrine::KayaWan
+- _Npc<Riverbed Reward guy>:
+    notes: shieldsurf here
+    coord: [830.5,138.5]
+- Get chest out of the water and open it
+- Pick up 4 Hyrule bass
+- Run to hestu:
+    notes: Make sure to discover the stable on the way
+    coord: [869.5,198.5]
+- _Npc<Hestu>:
+    notes: get 3bow/2weapon slots
+- Pick up 6 stamella shroom, korok, honey and hearty food in the forest
+- _Korok::Z37
+- wb .dir(2:30)
+- _Korok::Z38
+- wb .dir(4:30)
+- _Discover<Goponga Village Ruins>
+- wb .dir(12:00)
+- _Korok::Z39
+- Run .dir(3:00)
+- _Korok::Z40
+- Collect 30 Fleet Lotus seeds:
+    coord: [1964,400]
+- _Warp::Shrine::MoggLatan:
+        line-color: "red"
+- wb .dir(6:30)
+- _Korok::G19
+- wb .dir(11:30)
+- _Korok::G13
+- wb .dir(12:00) + wb .dir(10:00)
+- _Korok::G10
+- wb .dir(9:00) + wb .dir(12:00)
+- _Korok::G12
+- wb .dir(4:30)
+- Melt Kuh Takkar while Farming luminous stone
+- _Shrine::KuhTakkar
+- wb .dir(6:00) square
+- Kill 5 Lizalfos:
+    notes: Pick up all lizalfos parts, 2 bows, all wood
+    coord: [-3097,1337]
+- wb .dir(9:00)
+- Kill 3 Yiga:
+    coord: [-3735,1395]
+- Blss to Daqo chisay:
+    coord: [-3812.625,2820.625]
+- Talk to quest guy
+- Activate Daqo chisay
+- wb .dir(2:00) to bazzar
+- get clothes:
+    coord: [-3260.5,2607.6875]
+- wb .dir(8:00) to gerudo city
+- _Shop<Arrow Shop>:
+    notes: Buy everything
+    coord: [-3854.25,2913]
+- Run over to cooking pot
+- Drop fHorn, fClaw, fScale, Lizalfos tails
+- Overload and Dupe a set of bows:
+    notes: Pause Slowly
+    coord: [-3822.375,2942.875]
+- Transmutate the following
+- 5 Apple -> 5 Lizalfos tails
+- 5 Nightshade -> 5 Horns
+- 3egg/2lizalfos horn -> 3claw/2scale:
+    notes: pick up scale first
+- 5 Lizalfos talon -> 5 Horns
+- _Cook<stamina food, heartly food, 10 speedfood>
+- _Npc::Gerudo<Riju>: 
+    notes: talk to start naboris quest
+    coord: [-3888.875,2966.625]
+- wb .dir(8:30)
+- _Korok::W47
+- wb .dir(12:00)
+- _Korok::W36
+- wb .dir(11:30)
+- _Korok::W28
+- wb .dir(11:30)
+- _Korok::W18
+- wb .dir(11:00)
+- _Korok::W13
+- wb .dir(12:00) square
+- _Korok::W09
+- _Shrine::KemaZoos
+- _Warp::Shrine::KuhTakkar
+- wb .dir(8:30)
+- Clip into Yiga hideout and trigger cutscene:
+    notes: can get 15 arrows here
+    coord: [-3503.5,1341.5]
+- _Snap::Elite<Kogah>:
+    coord: [-3446,1321]
+- Get thunderhelm after quest
+- _Warp::Shrine::DaqoChisay
+- _Shrine::DaqoChisay
+- wb .dir(4:30) square to riju
+- _Npc::Gerudo<Riju>:
+    coord: [-3868.75,2948.875]
+- wb .dir(4:00) super
+- _Npc::Gerudo<Riju>:
+    coord: [-3421.5,3118.75]
+- _Npc::Gerudo<Talk to Perfect drink quest girl duing attack on naboris>:
+    notes: Can sjc wb
+    coord: [-2970,3781]
+- Attack on naboris:
+    coord: [-2512,3618]
+- _Npc<Snowboots guy>:
+    movements:
+        - to: [-3787,2851]
+          warp: Yes
+    notes: make sure to remove ragdoll after naboris
+- wb .dir(4:30) square to riju
+- _Npc::Gerudo<Rijua>:
+    notes: Finish naboris quest and start thunderhelm
+    coord: [-3885.4375,2964.6875]
+- _Npc::Gerudo<Search for barta>:
+    coord: [-3914.8125,2934.9375]
+- _Npc::Gerudo<7 Heroines shrine quest>:
+    coord: [-3871.875,2877.875]
+- _Npc::Gerudo<Perfect drink quest>:
+    coord: [-3859.875,2856.125]
+- _Npc::Gerudo<Mystery Polluter quest>:
+    coord: [-3834.375,2850.875]
+- wb .dir(12:30)
+- _Npc::Gerudo<Iceblock quest>:
+    coord: [-3743,2291.5]
+- Iceblock quest blss:
+    notes: melt iceblock a bit
+    coord: [-3764,2712]
+
+

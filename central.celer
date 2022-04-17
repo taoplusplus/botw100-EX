@@ -1,0 +1,314 @@
+central:
+- _Warp::Tower::DuelingPeaks:
+    line-color: "red"
+- wb .dir(12:00)
+- _Korok::D16
+- wb .dir(7:30)
+- _Korok::D25:
+    notes: warp horse
+- wb .dir(5:00)
+- _Korok::D29
+- wb .dir(9:00)
+- _Korok::D28
+- wb .dir(10:30)
+- _Korok::D23 
+- wb .dir(3:00)
+- _Korok::D24
+- run .dir(3:00)
+- _Boss::Talus::Stone:
+    fury: 1
+    notes: 1 fury
+    coord: [724,1478]
+- wb .dir(12:00)
+- _Korok::D15
+- wb .dir(10:30)
+- _Korok::D13 
+- wb .dir(1:30)
+- _Discover<Horwell Bridge>:
+    coord: [688,970]
+- wb .dir(1:30)
+- _Shrine::HilaRao
+- _Npc<Flowerblight>:
+    notes: step on flowers/talk to her for quest
+- wb .dir(4:30)
+- _Discover<Eagus Bridge>
+- _Korok::D01
+- wb .dir(0:30) super
+- _Korok::Z47
+- wb .dir(2:30)
+- _Korok::Z48
+- wb .dir(3:30)
+- _Korok::Z49
+- wb .dir(4:00)
+- _Korok::Z50
+- wb .dir(7:00)
+- _Korok::Z60 
+- Grab hyrule bass if you need
+- 2x wb .dir(1:30)
+- _Korok::N01
+- wb .dir(1:00)
+- _Korok::Z41 
+- wb .dir(10:30)
+- _Boss::Hinox::Red:
+    notes: bomb arrow
+    coord: [1966,98]
+- wb .dir(10:00) super
+- _Korok::Z30
+- wb .dir(9:00)
+- _Korok::Z29
+- wb .dir(8:00)
+- _Korok::C46 
+- wb .dir(7:30)
+- _Korok::C51
+- wb .dir(5:00)
+- _Memory::HyruleField
+- wb .dir(10:00)
+- _Boss::Hinox::Blue:
+    coord: [418,336]
+    fury: 1
+    notes: 1 fury + rgc
+- wb .dir(7:00)
+- _Korok::C56 
+- wb .dir(10:30)
+- _Korok::C50
+- wb .dir(10:00)
+- _Chest<Tingle's Tights>
+- _Discover<Mabe Village Ruins>:
+    notes: run a bit west from korok to discover
+    coord: [-4,168]
+- _Korok::C44
+- wb .dir(3:00)
+- _Korok::C45 
+- wb .dir(1:30)
+- _Korok::C34
+- wb .dir(12:00)
+- _Boss::Hinox::Blue:
+    notes: bomb arrows
+    coord: [632,-302]
+- 2x wb .dir(3:00)
+- _Korok::Z21
+- wb .dir(12:00)
+- _Korok::Z11
+- wb .dir(1:30)
+- _Korok::C13
+- wb .dir(2:00)
+- _Korok::K35
+- wb .dir(7:30):
+    coord: [1590,-706]
+- _Korok::Z02
+- _Korok::Z03 
+- wb .dir(10:30)
+- _Npc<Baloon quest>:
+    coord: [1080,-1128]
+    notes: might need to set tod(set noon then night)
+- wb .dir(4:00)
+- _Korok::K34
+- wb .dir(10:00) square
+- _Korok::K33
+- wb .dir(1:00) square
+- _Shrine::MirroShaz
+- wb .dir(3:00) super
+- _Discover<Rauru Settlement Ruins>:
+    coord: [694,-1268]
+- _Discover<Helmhead Bridge>
+- wb .dir(4:00):
+    coord: [627,-1071]
+- _Korok::C02
+- wb .dir(4:00)
+- _Boss::Talus::Luminous:
+    coord: [775,-1006]
+    fury: 2
+    notes: 2 fury
+- gale + midair .dir(6:00)
+- _Shrine::NamikaOzz:
+    notes: Kill guardian(rgc); pick up axe and frostspear!!!
+- wb .dir(9:00)
+- _Korok::C09
+- wb .dir(8:00) square
+- _Korok::C11
+- wb .dir(3:00)
+- _Korok::C12
+- wb .dir(8:00)
+- _Korok::C19
+- wb .dir(8:00)
+- _Discover<Orsedd Bridge>:
+    coord: [515,-488]
+- _Korok::C23
+- wb .dir(11:00)
+- _Korok::C18
+- wb .dir(10:30)
+- _Korok::C10
+- wb .dir(1:30)
+- _Korok::C06
+- wb .dir(3:00)
+- _Korok::C05 
+- run .dir(9:00)
+- _Boss::Hinox::Stal:
+    notes: rgc
+    coord: [262,-902]
+- shieldsurf .dir(9:30)
+- _Korok::C04
+- wb .dir(6:30)
+- _Korok::C17 
+- wb .dir(7:30):
+    coord: [-303,-261]
+- _Korok::C27
+- wb .dir(8:00)
+- _Korok::C31 
+- wb .dir(1:30)
+- _Shrine::KatahChuki
+- wb .dir(12:00)
+- _Korok::C26 
+- _Discover<Water Reservoir>:
+    coord: [-605,-517]
+- glide .dir(9:00) rock:
+    coord: [-659,-513]
+- _Korok::C22
+- wb .dir(7:30)
+- _Korok::C25 
+- wb .dir(12:00)
+- _Korok::C21 
+- run .dir(1:00)
+- _Korok::C20 
+- wb .dir(12:00)
+- _Boss::Talus::Rare:
+    fury: 3
+    coord: [-769,-803]
+- wb .dir(4:30)
+- _Korok::C15 
+- wb .dir(11:30)
+- _Chest<Tingle's Shirt>
+- _Korok::C08:
+    notes: can leave shield
+- run .dir(12:00)
+- _Korok::C03
+- wb .dir(1:30)
+- _Korok::C01 
+- wb .dir(9:00)
+- _Korok::R11
+- wb .dir(5:00)
+- _Korok::C07 
+- wb .dir(6:00)
+- _Korok::C14
+- run .dir(3:00)
+- _Shrine::NoyaNeha
+- wb .dir(9:00):
+    coord: [-1187,-638]
+- _Korok::R19
+- wb .dir(0:30)
+- _Korok::R16 
+- wb .dir(11:00) super:
+    coord: [-1237,-1107]
+- _Korok::R10 
+- wb .dir(1:00)
+- _Memory::IrchPlain:
+    notes: last memory
+- run .dir(4:30)
+- _Korok::R07 
+- wb .dir(3:00)
+- _Boss::Hinox::Blue:
+    coord: [-718,-1252]
+    fury: 3
+- wb .dir(12:00)
+- _Korok::K29 
+- 2x wb .dir(1:30)
+- _Korok::K27
+- wb .dir(3:00)
+- _Korok::K28
+- wb .dir(11:00)
+- _Boss::Hinox::Blue:
+    notes: rgc
+    coord: [-482,-2044]
+- wb .dir(8:30)
+- _Korok::K19
+- wb .dir(10:30)
+- _Korok::K16
+- wb .dir(8:00)
+- _Korok::K17:
+    notes: warp horse
+- wb .dir(3:00)
+- _Korok::K18
+- wb .dir(5:30)
+- _Korok::K26
+- wb .dir(10:30)
+- _Korok::K25
+- wb .dir(7:30)
+- _Korok::K24
+- wb .dir(8:30)
+- _Shrine::MonyaToma
+- wb .dir(9:00)
+- _Shrine::MaagNorah
+- wb .dir(11:00)
+- _Korok::R03
+- gale:
+    gale: 1
+- _Boss::Talus::Stone:
+    coord: [-2173,-1586]
+    fury: 3
+- run .dir(8:30)
+- _Korok::R02 
+- 2x wb .dir(4:30)
+- _Korok::R06 
+- wb .dir(4:00)
+- _Korok::R09
+- wb .dir(5:30)
+- _Tower::Ridgeland
+- wb .dir(9:00)
+- _Korok::R15 
+- wb .dir(11:00)
+- Stasislaunch orb:
+    coord: [-2140,-916]
+- wb .dir(10:30)
+- Stasislaunch Orb:
+    coord: [-2140,-916]
+- wb .dir(10:30)
+- _Korok::R08 
+- wb .dir(5:00)
+- Put orbs in the right place
+- _Shrine::TohYahsa
+- wb .dir(7:00)
+- _Korok::R14
+- wb .dir(4:30)
+- _Korok::R23 
+- _Korok::R24
+- wb .dir(1:30):
+    coord: [-1986,-624]
+- _Korok::R18
+- wb .dir(5:00)
+- _Korok::R39
+- wb .dir(3:00)
+- _Boss::Hinox::Blue:
+    coord: [-1540,-166]
+    notes: rgc
+- run .dir(1:30)
+- _Korok::R40 
+- wb .dir(1:30):
+    coord: [-1780,-368]
+- _Korok::R25 
+- wb .dir(2:30)
+- _Shrine::ZaltaWa
+- 2x wb .dir(3:30)
+- _Korok::C24
+- wb .dir(0:30) square:
+    coord: [-996,-534]
+- _Korok::R26 
+- _Korok::R27:
+    notes: shoot during race korok
+- wb .dir(5:00)
+- _Korok::R44
+- _Snap::Elite<Silver Moblin>
+- run .dir(6:00)
+- _Korok::R43:
+    notes: shoot from down here
+- _Korok::R45:
+   notes: equip royal guards set
+- wb .dir(7:00)
+- _Korok::R42 
+- wb .dir(4:30)
+- _Boss::Hinox::Black:
+    notes: rgc+fury
+    fury: 3
+    coord: [-1176,114]
+- wb .dir(6:00)
+- _Discover<Ancient Tree Stump>
+- _Korok::C47

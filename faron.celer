@@ -1,0 +1,716 @@
+faron:
+- _Warp::Shrine::KuhTakkar:
+    line-color: "black"
+- wb .dir(6:00) square
+- Kill lizalfos:
+    notes: icerod + stasis+ + 3 shockarrow
+    coord: [-3096,1328]
+- wb .dir(6:00):
+    coord: [-3046,1462]
+- _Korok::G22
+- wb .dir(0:30)
+- _Korok::G17
+- wb .dir(3:00)
+- _Boss::Talus::Frost:
+    fury: 3
+    notes: 3 fury
+    coord: [-2914,1302]
+- wb .dir(1:30)
+- _Korok::G18
+- wb .dir(4:30)
+- _Korok::G23
+- wb .dir(7:30)
+- _Korok::G27
+- wb .dir(3:30)
+- _Korok::G28
+- wb .dir(2:00)
+- _Korok::G24
+- wb .dir(5:00)
+- Do shrine quest:
+    coord: [-2003,1735]
+- _Shrine::JolooNah
+- wb .dir(6:30)
+- Sesami's Friend:
+    coord: [-2061,1989]
+- wb .dir(5:30)
+- _Korok::W14 
+- wb .dir(10:30)
+- _Boss::Talus::Stone:
+    notes: 3 fury if up
+    coord: [-1894,2056]
+- wb .dir(5:30)
+- _Korok::W26 
+- jump down .dir(1:00)
+- _Shrine::JeeNoh
+- wb .dir(1:00)
+- _Korok::G36
+- wb .dir(4:30)
+- _Korok::W20 
+- run .dir(7:00)
+- _Korok::W21 
+- wb .dir(5:30)
+- _Korok::W27 
+- wb .dir(2:00)
+- _Korok::W22
+- gale + midair .dir(2:30):
+    gale: 1
+- _Korok::P17
+- run .dir(9:00)
+- _Korok::P16
+- gale+midair .dir(10:30)
+- _Korok::P15
+- shieldsurf .dir(11:00)
+- _Korok::P14
+- gale+midair .dir(11:30)
+- _Korok::P07
+- wb .dir(2:00) square
+- _Korok::P08
+- wb .dir(12:00)
+- _Korok::P03
+- wb .dir(12:00) super
+- _Korok::C80
+- wb .dir(1:30)
+- _Korok::C79
+- wb .dir(10:00)
+- _Npc<A rare find quest>:
+    coord: [-1446,1278]
+- _Npc<My hero quest>: 
+    coord: [-1380,1276]
+- run .dir(3:00)
+- _Korok::C78
+- wb .dir(11:00)
+- _Korok::C72
+- wb .dir(3:00):
+    coord: [-1184,1198]
+- _Korok::C73
+- wb .dir(1:00) square
+- _Korok::C68
+- _Discover<Aquame Bridge>
+- wb .dir(11:30)
+- _Korok::C67
+- wb .dir(9:00)
+- _Korok::C66
+- wb .dir(12:00)
+- _Korok::C52
+- wb .dir(12:00)
+- _Korok::C37
+- wb .dir(7:30)
+- _Korok::R58
+- 2x wb .dir(3:30)
+- _Korok::C53
+- wb .dir(2:30)
+- _Tower::Central
+- wb .dir(1:00) square
+- _Korok::C48
+- wb .dir(7:00)
+- _Discover<Hyrule Garrison Ruins>:
+    coord: [-614,586]
+- wb .dir(3:00)
+- _Korok::C54 
+- wb .dir(1:30)
+- _Korok::C49
+- wb .dir(4:30)
+- _Korok::C55
+- wb .dir(4:00)
+- _Korok::C63
+- wb .dir(9:00) square
+- _Korok::C62
+- _Chest<Tingle Hood>
+- wb .dir(4:30)
+- _Korok::C69
+- wb .dir(7:00)
+- _Memory::LakeKolomo:
+    coord: [-680,1229]
+- wb .dir(7:00)
+- _Korok::C82
+- wb .dir(3:00)
+- _Korok::C83
+- wb .dir(4:00)
+- _Discover<Gatepost Town Ruins>:
+    coord: [-558,1445]
+- wb .dir(1:00)
+- _Korok::C76 
+- run/climb .dir(3:00)
+- _Chest<Majora's Mask>
+- wb .dir(12:00) square
+- _Korok::C75
+- wb .dir(9:00)
+- _Boss::Talus::Stone:
+    coord: [-510,1184]
+    notes: 3 fury
+    fury: 2
+- wb .dir(2:00)
+- _Korok::C64
+- wb .dir(6:00)
+- _Korok::C70
+- wb .dir(3:00)
+- _Korok::C71
+- wb .dir(1:30)
+- _Korok::C65
+- wb .dir(4:30)
+- _Shrine::WahgoKatta
+- shieldsurf to stable
+- _Npc<Royal guards gear quest>:
+    coord: [344,1098]
+- _Npc<Fruitcake quest>
+- _Tod::Night
+- wb .dir(6:00)
+- _Korok::C77
+- shieldsurf to bridge
+- _Korok::D14:
+    notes: shoot from C77
+- wb .dir(5:00)
+- _Korok::D22
+- wb .dir(3:00)
+- _Korok::C84
+- wb .dir(6:00)
+- _Korok::D26
+- glide .dir(6:00)
+- _Shrine::BoshKala
+- wb .dir(2:30)
+- _Korok::D27
+- wb .dir(6:00) square
+- _Korok::D34
+- run .dir(9:00)
+- _Korok::D33
+- wb .dir(9:00)
+- _Korok::D32
+- wb .dir(6:00)
+- _Korok::D31:
+    notes: shoot with bomb arrow midair
+- wb .dir(7:00)
+- _Korok::D44
+- wb .dir(8:30)
+- _Korok::P12
+- drop down
+- _Korok::P13
+- wb .dir(1:00) super
+- Pick up rushrooms:
+    coord: [-218,1636]
+- run .dir(6:00)
+- _Discover<Outpost Ruins>
+- wb .dir(6:00)
+- _Boss::Talus::Stone:
+    coord: [-172,1778]
+- shieldsurf .dir(6:00)
+- _Korok::D43 
+- 2x wb .dir(4:30):
+    coord: [90,2144]
+- _Korok::L03
+- wb .dir(5:30)
+- _Korok::L10
+- 2x wb .dir(9:00)
+- _Korok::D54
+- drop down
+- _Korok::L09
+- wb .dir(6:00)
+- _Korok::L27
+- Look up south for xenoblade chest
+- run .dir(6:00) which watching chest land
+- _Korok::L30 
+- drop down
+- _Korok::L31
+- wb .dir(3:00)
+- _Korok::L32
+- wb .dir(3:00)
+- _Korok::L33
+- wb .dir(8:00)
+- _Chest<Xenoblade>:
+    coord: [106,2684]
+- run .dir(5:30)
+- _Korok::L39
+- wb .dir(4:00)
+- _Korok::L40
+- wb .dir(4:00)
+- _Korok::L44
+- wb .dir(3:00)
+- _Korok::L42
+- shieldsurf .dir(7:30)
+- _Korok::L43
+- wb .dir(6:00)
+- _Korok::L51
+- wb .dir(3:00)
+- Get rushrooms
+- Kill lizalfos hope for tail:
+    coord: [25,2977]
+- gale+midair(3:00):
+    gale: 1
+- _Tower::Lake
+- jump down .dir(7:30)
+- kill lizalfos for tail
+- _Snap::Elite<Silver Lizalfos>
+- wb .dir(7:30)
+- _Korok::L48
+- _Chest<Island Lobster Shirt>
+- wb .dir(4:30)
+- _Korok::L49
+- wb .dir(1:00) square
+- _Korok::L50
+- wb .dir(4:30)
+- _Korok::L59
+- wb .dir(6:00)
+- _Korok::L60
+- wb .dir(2:00)
+- _Korok::L52
+- wb .dir(2:00)
+- _Shrine::PumaagNitae
+- run .dir(4:00)
+- _Korok::L53
+- shielsurf .dir(4:00)
+- _Korok::L55
+- wb .dir(5:00)
+- _Korok::L61
+- run .dir(7:30)
+- _Korok::L66
+- 2x wb .dir(4:30):
+    coord: [837,3434]
+- _Korok::L72
+- wb .dir(5:00)
+- _Boss::Hinox::Blue:
+    coord: [1028,3503]
+    notes: 1fury+rgc(3hit)
+    fury: 1
+- wb .dir(3:30)
+- _Korok::F38
+- 2x wb .dir(8:00)
+- _Korok::L79
+- wb .dir(7:30)
+- _Korok::L92
+- gale + wb .dir(12:00):
+    gale: 1
+- _Korok::L78
+- wb .dir(9:00)
+- _Chest<Ancient Horse Gear>
+- Open Horsegod Spring
+- wb .dir(9:00)
+- _Korok::L77
+- drop down to bridge
+- _Discover<Horse God Bridge>
+- wb .dir(1:00)
+- _Korok::L75
+- wb .dir(11:00)
+- Kill all bokos:
+    coord: [464,3298]
+    notes: shoot midair
+- wb .dir(5:00)
+- _Npc<Horseboko quest>:
+    coord: [522,3468]
+- Get horse
+- 2x Horse Minigames:
+    notes: Prayge
+- _Tod::Night
+- Put on ancient saddle
+- wb .dir(6:00)
+- _Shrine::KaoMakagh
+- wb .dir(6:00):
+    coord: [550,3576]
+- _Korok::L65
+- wb .dir(8:00)
+- _Boss::Hinox::Stal:
+    coord: [142,3400]
+    notes: 1shot + 3fury if up
+- gale + midair:
+    gale: 1
+- _Korok::L70
+- glide .dir(3:00)
+- _Korok::L71
+- 2x wb .dir(6:00)
+- _Korok::L73
+- wb .dir(3:00)
+- _Korok::L74
+- wb .dir(3:00)
+- _Korok::L76
+- wb .dir(6:30)
+- _Korok::L91
+- wb .dir(7:00) square
+- _Korok::L90 
+- wb .dir(8:00)
+- _Korok::L89
+- wb .dir(11:00) square
+- _Korok::L88
+- wb .dir(9:00)
+- _Korok::L87
+- drop down
+- _Npc<Guardian Slideshow quest>
+- _Shrine::ShoqaTatone
+- _Tod::Night
+- run .dir(9:00)
+- _Korok::L86
+- wb .dir(9:00)
+- _Korok::L85
+- wb .dir(9:00)
+- _Korok::L83
+- glide .dir(7:00)
+- _Korok::L82
+- glide .dir(3:00)
+- _Korok::L84 
+- wb .dir(9:00)
+- _Korok::L81
+- wb .dir(9:00):
+    coord: [-596,3846]
+- _Korok::L80
+- 2x wb .dir(10:30)
+- _Korok::L69
+- gale+wb .dir(7:30):
+    gale: 1
+- _Boss::Hinox::Stal:
+    coord: [-1066,3787]
+    fury: 3
+    notes: 3 fury
+- gale+wb .dir(11:00):
+    gale: 1
+- _Korok::L68 
+- wb .dir(10:30)
+- _Korok::L67 
+- wb .dir(3:00)
+- _Shrine::IshtoSoh
+- wb .dir(11:30)
+- _Boss::Talus::Luminous:
+    coord: [-959,3230]
+    notes: boulerbreaker
+- wb .dir(10:00)
+- _Korok::L41
+- wb .dir(2:00)
+- _Korok::L37 
+- wb .dir(12:00) super
+- _Korok::L23 
+- wb .dir(8:30)
+- _Korok::L21
+- wb .dir(3:00)
+- _Korok::L22
+- Mount Giant horse
+- Ride to mounted archery camp
+- _Korok::L36:
+    notes: get while riding
+- _Korok::L62:
+    notes: get while riding
+- _Npc<Giant horse quest>:
+    coord: [-554,3802]
+- Whistle to teleport horse
+- Do mounted archery minigame x2:
+    notes: score 23 and 20
+    coord: [-196,3500]
+- run .dir(12:00)
+- _Korok::L64
+- glide .dir(3:00):
+    coord: [-282,3336]
+    notes: start race korok
+- _Korok::L63 
+- _Korok::L47 
+- wb .dir(11:30)
+- _Korok::L38 
+- wb .dir(11:00)
+- _Korok::L24 
+- wb .dir(12:00)
+- _Korok::L08 
+- wb .dir(4:30)
+- _Korok::L25 
+- wb .dir(4:30) square
+- _Shrine::YaNaga
+- gale+wb .dir(3:00):
+    gale: 1
+- _Npc::ZoraFemale<A wife washed away quest>:
+    coord: [-240,2591]
+- wb .dir(2:30)
+- _Korok::L26 
+- glide .dir(1:00)
+- _Korok::L14 
+- _Korok::L15 
+- 2x wb .dir(3:00)
+- _Korok::L16 
+- wb .dir(11:00)
+- _Korok::L11
+- wb .dir(1:00)
+- Pick up rushrooms, start flowerchase
+- _Korok::L05 
+- shieldsurf .dir(3:00)
+- _Korok::L06 
+- wb .dir(10:30)
+- _Korok::L02
+- wb .dir(12:00)
+- _Boss::Talus::Stone:
+    coord: [363,1905]
+    fury: 1
+    notes: 1 fury
+- _Korok::L01 
+- wb .dir(7:30)
+- _Korok::L04 
+- wb .dir(11:00)
+- _Memory::WestNecluda
+- run .dir(7:30)
+- _Korok::D45 
+- wb .dir(1:30)
+- _Korok::D35 
+- wb .dir(2:00):
+    coord: [466,1704.5]
+- _Korok::D36:
+    notes: pick up nightshade
+- _Korok::D46:
+    notes: stasis+ and bomb arrow
+- wb .dir(2:00)
+- _Korok::D37
+- run .dir(3:00)
+- _Korok::D38
+- wb .dir(4:00)
+- _Korok::D47
+- wb .dir(1:30):
+    coord: [996.5,1836]
+- _Korok::D39
+- wb .dir(3:00)
+- _Shrine::ReeDahee
+- SCW to Shee vaneth:
+    notes: Shieljump scw
+- _Shrine::SheeVaneth
+- wb .dir(6:00)
+- _Equipment::Weapon<Traveler's sword>:
+    notes: kill stalkoblin
+- _Shrine::SheeVaneer
+- climb .dir(9:00)
+- _Korok::D49
+- wb .dir(12:00) square
+- _Korok::D40
+- wb .dir(3:00) square
+- _Korok::D41 
+- wb .dir(11:00)
+- _Korok::D30
+- wb .dir(12:00)
+- _Boss::Talus::Stone:
+    coord: [1468,1330]
+- wb .dir(9:00)
+- _Korok::D17
+- wb .dir(6:30)
+- _Boss::Talus::Stone:
+    coord: [1193.5,1650]
+    fury: 1
+    notes: 1 fury
+- wb .dir(7:30)
+- _Tower::DuelingPeaks
+- wb .dir(5:00)
+- _Korok::D48
+- wb .dir(7:30)
+- _Korok::D50
+- wb .dir(4:00)
+- _Korok::L07 
+- wb .dir(7:00)
+- _Korok::L19 
+- drop down
+- _Korok::L20 
+- _Chest<Ravio's hood>
+- _Discover<Spring of Courage>
+- Drop scale
+- _Shrine::ShaeKatha
+- wb .dir(9:00)
+- _Korok::L13 
+- wb .dir(8:30)
+- _Korok::L17
+- _Korok::L18 
+- run .dir(12:00)
+- _Korok::L12 
+- gale + midair .dir(7:30):
+    gale: 1
+- _Korok::L28 
+- wb .dir(9:00)
+- _Korok::L29 
+- wb .dir(4:00) square
+- _Korok::L34 
+- wb .dir(4:00)
+- _Korok::L35 
+- Pick up 2 durians
+- wb .dir(6:00)
+- _Korok::L45
+- wb .dir(4:30)
+- _Korok::L54 
+- wb .dir(3:00)
+- _Discover<Zonai Ruins>:
+    coord: [845,2968]
+- glide .dir(6:00)
+- _Korok::L56 
+- run .dir(6:00)
+- _Npc::Rito<Kass>:
+    notes: talk for quest
+    coord: [820,3054]
+- run .dir(6:00)
+- _Korok::L57 
+- wb .dir(4:00)
+- _Korok::F24
+- _Chest<Phantom Ganon Armor>
+- _Discover<Sarjon Bridge>
+- _Korok::F23 
+- wb .dir(1:30)
+- _Korok::L58 
+- wb .dir(12:00)
+- _Korok::L46 
+- wb chain .dir(12:00):
+    coord: [1135,2328]
+- _Korok::F02
+- wb .dir(1:00)
+- _Boss::Talus::Stone:
+    coord: [1250,2176]
+    notes: 1 fury
+    fury: 1
+- wb .dir(4:30)
+- _Korok::F05
+- wb .dir(10:30)
+- _Korok::F01
+- wb .dir(7:00)
+- _Korok::F04
+- run .dir(12:00)
+- _Chest<Zant's Helment(DLC)>
+- _Korok::F03
+- wb .dir(6:00)
+- _Boss::Hinox::Red:
+    coord: [1332,2624]
+    notes: bomb arrows midair
+- wb .dir(6:00)
+- _Korok::F10 
+- wb .dir(4:30)
+- _Korok::F16:
+    gale: 1
+- wb .dir(8:00)
+- _Korok::F15
+- wb .dir(4:00)
+- _Boss::Hinox::Red:
+    coord: [1494,3102]
+    notes: bomb arrows midair
+- wb .dir(7:00)
+- _Korok::F25
+- wb .dir(7:30)
+- _Tower::Faron
+- wb .dir(5:30)
+- _Korok::F39
+- run .dir(4:00)
+- _Korok::F40 
+- wb .dir(4:00) super
+- _Korok::F48
+- wb .dir(5:00)
+- _Korok::F55
+- wb .dir(9:00)
+- _Korok::F54
+- wb .dir(8:30)
+- _Korok::F53
+- run .dir(12)
+- _Boss::Talus::Stone:
+    coord: [1394,3720]
+    fury: 1
+- 2x wb .dir(4:00)
+- _Korok::F56
+- wb chain .dir(3:00)
+- clear enemy camp:
+    notes: 2 fury
+    fury: 1
+- 2x wb .dir(12:00):
+    coord: [2056,3554]
+- _Korok::F43
+- wb .dir(12:00)
+- _Korok::F30 
+- wb .dir(7:00)
+- _Boss::Hinox::Stal:
+    notes: rgc+ 1 fury
+    coord: [2088,3450]
+    fury:
+- wb .dir(10:00)
+- _Korok::F35 
+- _Chest<Phantom Ganon Greaves>
+- wb .dir(2:00)
+- Collect until 15 hyrulebass/15 hearty bass
+- wb .dir(7:00)
+- _Korok::F46
+- wb .dir(11:00)
+- _Korok::F42 
+- wb .dir(10:00)
+- collect beetels until 15(at least until 13):
+    coord: [1516,3334]
+- wb .dir(3:00)
+- _Boss::Talus::Stone:
+    notes: shoot midair
+- wb .dir(12:00)
+- _Chest<DLC Armor>:
+    coord: [1686,3176]
+- wb .dir(3:00)
+- _Korok::F28
+- wb .dir(12:00)
+- _Chest<Phantom Ganon Skull>
+- _Korok::F27
+- wb .dir(12:00)
+- _Shrine::ShodaSah
+- wb .dir(6:00) square
+- activate race start
+- _Korok::F19
+- wb .dir(12:00)
+- _Korok::F17 
+- wb .dir(4:00)
+- _Korok::F20
+- wb .dir(3:00)
+- _Korok::F21
+- wb .dir(8:00):
+    notes: unequipp metal equipment
+- _Korok::F29
+- run .dir(5:00)
+- _Npc::Rito<Kass>:
+    coord: [2086,3236]
+    notes: get quest
+- run to shrine:
+    notes: reequipp metal equipment
+- _Shrine::QukahNata
+- wb .dir(4:00) super
+- _Korok::F47
+- shielsurf down .dir(1:00)
+- _Npc<Gift of nightshade quest>:
+    coord: [2598,3544]
+- wb .dir(6:00)
+- _Korok::F57
+- wb .dir(3:00)
+- Land on stone pillar, build cryo block, wb over:
+    coord: [3012,3838]
+- Pick up easternmost chest(sapphire):
+    coord: [3014,3886]
+- wb .dir(10:30)
+- _Korok::F49
+- wb .dir(3:00)
+- _Korok::F50 
+- wb .dir(4:30)
+- _Korok::F58
+- wb .dir(1:30)
+- _Korok::F51
+- wb .dir(3:00)
+- _Korok::F52 
+- _Snap::Quest<Monument Shard>:
+    coord: [3797.5,3613.25]
+- wb .dir(10:30)
+- _Snap::Quest<Monument Shard>:
+    coord: [3534,3362]
+- wb .dir(4:00)
+- _Snap::Quest<Monument Shard>:
+    coord: [3387,3483]
+- wb .dir(1:00)
+- _Npc<Monument Shards quest>:
+    coord: [3453,3365]
+- _Shrine::KahYah
+- wb .dir(9:00)
+- _Korok::F37
+- run .dir(6:00)
+- _Boss::Talus::Stone:
+    notes: fury from above
+    coord: [3273,3387]
+    fury: 2
+- wb .dir(9:00)
+- _Korok::F45 
+- jump down, pick up hearty snail
+- run dir.(11:00)
+- _Npc<Take bakc the sea quest>:
+    coord: [2913.5,3430.5]
+- _Npc<What's for dinner quest>:
+    coord: [2909,3410.5]
+- _Korok::F44:
+    notes: shoot with normal arrow
+- _Npc<Secret of the ocean quest>:
+    coord: [2883,3462]
+    notes: talk TWICE
+- wb .dir(2:00)
+- Blss rock to circle:
+    coord: [3011.5,3378.5]
+- _Korok::F36
+- wb .dir(10:00)
+- _Shrine::YahRin
+- wb .dir(10:00)
+- _Korok::F31

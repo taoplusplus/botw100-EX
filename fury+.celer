@@ -1,0 +1,214 @@
+fury+:
+- _Warp::Shrine::KuhTakkar:
+    line-color: "green"
+- SCW: 
+    notes: shieldjump
+- _Shrine::KihiroMoh
+- Run into yiga hideout
+- maybe AA yigas
+- get orb:
+    coord: [-3574,1370]
+    gale: 1
+    notes: pick up at least 6 bananas
+- Get shrine location:
+    coord: [-3392,1346]
+- wb .dir(12:00) + wb .dir(7:30)
+- _Boss::Talus::Frost:
+    notes: fury if up
+    coord: [-3546,1562] 
+- wb .dir(9:30)
+- _Korok::G26
+- wb .dir(7:00)
+- _Korok::G31
+- wb .dir(10:30)
+- _Korok::G30
+- wb .dir(2:30)
+- _Shrine::ShoDantu:
+    notes: get 10 luminous stones
+- wb .dir(10:30)
+- _Korok::W02
+- glide .dir(8:30)
+- _Korok::G25
+- wb .dir(9:00) square
+- _Korok::W04
+- jump down .dir(8:30)
+- _Korok::W05
+- glide .dir(11:00)
+- _Korok::W03
+- wb .dir(6:30)
+- _Korok::W06
+- wb .dir(4:30)
+- _Korok::G33
+- wb .dir(4:30)
+- _Korok::W29
+- wb .dir(6:30)
+- _Npc::Gerudo<Shrinequest for statues>:
+    coord: [-3901.25,2878.5]
+- _Npc::Gerudo<Buy sandseal>
+- do dlc shrinequest
+- _Shrine::TakamaShiri
+- wb .dir(6:00)
+- _Korok::W25
+- wb .dir(6:00)
+- _Boss::Molduga:
+    coord: [-4840,2798]
+    notes: fury if up
+    fury: 3
+- _Shrine::ThoKayu
+  - wb .dir(4:30)
+- _Boss::Molduga:
+    coord: [-4550,3264]
+- wb .dir(9:00)
+- _Korok::W51
+- wb .dir(6:00)
+- _Korok::W65
+- _Snap::Quest<Leviathan>
+- Open fairy fountain
+- _Shrine::HawaKoth
+- _Npc::Gerudo<Durian quest>:
+    coord: [-4830.5,3716]
+- wb .dir(2:00)
+- _Korok::W55
+- wb .dir(6:00)
+- _Korok::W61
+- wb .dir(4:00)
+- _Boss::Molduga:
+    coord: [-4190,3798]
+- _Korok::W66
+- wb.dir(2:00)
+- _Boss::Molduga:
+    coord: [-3772,3655]
+- wb .dir(12:00)
+- _Korok::W57
+- wb .dir(11:30)
+- _Korok::W56 
+- wb .dir(12:00)
+- Do sandseal Race
+- _Shrine::RaqaZunzo:
+    notes: probably wanna delay bloodmoon somewhere around here
+- wb .dir(2:00)
+- _Korok::W43
+- wb .dir(2:30)
+- _Korok::W37
+- wb .dir(4:30)
+- _Korok::W44
+- wb .dir(4:30)
+- _Korok::W52
+- wb .dir(5:30)
+- _Korok::W63
+- _Boss::Molduga:
+    notes: Kill molduking, shock arrows
+    coord: [-2387,3733]
+- wb .dir(6:00)
+- _Shrine::KeiveTala
+- wb .dir(8:30)
+- _Korok::W68
+- wb .dir(10:00)
+- _Npc::Gerudo<Finish perfect drink quest>
+- _Shrine::MisaeSuma
+- wb .dir(9:30)
+- _Korok::W62
+- wb .dir(9:00)
+- _Korok::W67
+- _Warp::VahNaboris:
+    line-color: "orange"
+- Naboris Refight:
+    notes: break shield -> spin attack x2, maybe stasis+?
+    commands: 
+        - EnableFuryPlus
+- Get fury+
+- run .dir(11:00)
+- _Korok::W33
+- wb .dir(9:00)
+- _Korok::W31
+- run .dir(3:00)
+- _Korok::W32
+- wb .dir(12:00)
+- _Tower::Wasteland
+- wb .dir(2:00):
+    coord: [-2105,2296]
+- _Korok::W24
+- Jump down
+- _Korok::W23 
+- wb .dir(12:00)
+- Kill wizzrobe:
+   coord: [-2161,2142.5]
+- _Equipment::Weapon<Fire Rod>
+- _Tod::Noon
+- wb .dir(12:00)
+- _Korok::W11
+- wb .dir(5:00)
+- _Korok::W12
+- Pick up darner
+- _Korok::W16
+- 3x wb .dir(5:00)
+- _Korok::W34 
+- wb .dir(7:00)
+- _Korok::W39
+- wb .dir(9:00)
+- _Korok::W38
+- wb .dir(4:30)
+- _Boss::Talus::Stone:
+    coord: [-2089,3043]
+- wb .dir(4:30)
+- _Korok::W50 
+- wb .dir(7:00):
+    coord: [-2024,3439]
+- _Korok::W58
+- wb .dir(2:00)
+- _Shrine::DilaMaag
+- wb .dir(12:00) + wb chain .dir(3:00)
+- _Korok::W54
+- wb .dir(7:00)
+- _Korok::W59
+- wb .dir(4:00)
+- _Korok::W64
+- wb .dir(12:00)
+- _Korok::W60 
+- wb .dir(12:00)
+- Read book for quest
+- Activate Shrine
+- _Shrine::SumaSahma
+- _Tod::Night
+- wb .dir(1:00)
+- _Korok::W53
+- wb .dir(12:00)
+- _Korok::W41
+- wb .dir(7:30)
+- _Korok::W45 
+- run .dir(2:00)
+- _Korok::W46 
+- wb .dir(8:30)
+- _Korok::W49
+- wb .dir(9:30)
+- _Korok::W48
+- wb .dir(10:00)+ wb .dir(11:00)
+- Throw down first orb:
+    coord: [-2687,2735]
+- _Korok::W35 
+- Put orbs in locations
+- _Shrine::KorshOhu
+- wb .dir(6:00)
+- _Korok::W40 
+- 2x wb .dir(0:30)
+- _Korok::W30 
+- 2x wb .dir(12:00):
+    coord: [-2601,2130]
+- _Korok::G35
+- wb .dir(8:00):
+    gale: 1
+- _Boss::Talus::Luminous:
+    fury: 3
+    coord: [-2905,2213]
+- wb .dir(5:00)
+- _Korok::W19
+- glide .dir(3:30)
+- _Shrine::KayNoh
+- run .dir(12:00)
+- _Korok::W15
+- Spint attack with ice rod
+- Pick up 4 rushrooms
+- _Npc<Sesami>
+- _Tod::Noon
+- Shoot down 4 more rushrooms:
+    coord: [-2761,2227]

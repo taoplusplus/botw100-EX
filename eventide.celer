@@ -1,0 +1,97 @@
+eventide:
+- _Warp::Tower::Hateno:
+    line-color: "yellow"
+- wb .dir(9:00) far
+- _Korok::D53
+- Build cryo block
+- wb .dir(6:00) + wb .dir(7:00)
+- _Korok::D58
+- gale+midair .dir(7:00)
+- _Korok::D57
+- wb .dir(4:30)
+- _Korok::F07
+- wb .dir(7:30)
+- _Korok::F13
+- wb .dir(4:00)
+- _Boss::Hinox::Black:
+    coord: [2420,2784]
+    notes: rgc
+- carry orb to pedestal
+- wb .dir(1:30)
+- _Korok::F14 
+- wb .dir(7:30) square
+- _Boss::Hinox::Red:
+    coord: [2776,2702]
+    notes: rgc
+- carry orb to pedestal
+- Read stone for quest
+- wb .dir(5:00)
+- _Boss::Hinox::Blue:
+    coord: [2696,2972]
+    fury: 3
+    notes: 3 fury (try to hit honey too)
+- Collect 6 honey(5 if you got the one on plat2)
+- carry orb to pedestal
+- _Shrine::TawaJinn
+- wb .dir(4:00)
+- _Korok::F22
+- wb .dir(1:30)
+- _Korok::F18
+- run .dir(3:00)
+- _Boss::Hinox::Red:
+    coord: [3190,2896]
+    notes: bomb arrows
+- _Korok::N64:
+    notes: aim at trees, stasis apple, bombarrow tree
+- 2x wb .dir(6:00)
+- _Korok::F32
+- 2x wb .dir(3:00)
+- _Shrine::MuwoJeem
+- run .dir(11:00)
+- _Korok::F33
+- wb .dir(10:00)
+- _Korok::N65
+- wb .dir(12:00)
+- _Korok::N61 
+- wb .dir(3:00)
+- _Npc<Kass>:
+    coord: [3772,26423772,2642]
+    notes: talk for quest
+- Jump down and get chest:
+    coord: [3776.75,2661.375]
+- wb .dir(1:00)
+- _Korok::N60 
+- wb .dir(4:00)
+- _Korok::N62
+- wb .dir(12:00)
+- Clear Entire enemy Camp:
+    fury: 1
+    notes: 1 fury (hit black boko with rgc or ms), 1 AA for silver boko
+    coord: [4092,2376]
+- wb .dir(1:30)
+- _Korok::N54
+- 2x wb .dir(4:00)
+- _Korok::N56 
+- swim/run .dir(6:00)
+- _Boss::Talus::Stone:
+    coord: [4560,2466]
+    fury: 2
+    notes: 2 fury
+- run .dir(6:00)
+- _Korok::N63
+- run .dir(2:00):
+    coord: [4628,2477]
+- _Korok::N57
+- wb .dir(10:00)
+- _Korok::N55
+- wb .dir(7:30) (vr super?)
+- _Shrine::ChaasQeta
+- run race Start:
+    coord: [4025.75,2977.25]
+- wb .dir(2:30) square:
+    notes: cryo block
+- _Korok::N66
+- eventide:
+    coord: [4581,3666]
+- _Boss::Hinox::Blue
+- _Shrine::KorguChideh

@@ -1,0 +1,82 @@
+medoh:
+
+- _chest<_Equipment::Bow<Forest Dweller's Bow>>:
+    notes: Blss from cryo to Forest dwellers bow on mt. satori
+    coord: [-2342.64, 348.37, 680.81]
+- Pick up 10 durians:
+    notes: wb.dir(1:00)
+    coord: [-2190.36, 411.26, 449.25]
+- Pick up all wood from Durian Trees
+- Get 3 Rushrooms above Mogg Latan:
+    notes: wb .dir(3:00)
+    coord: [-2297.00, 462.74, 447.00]
+- _Korok::R60:
+    notes: glide down and get Korok
+- _Shrine::MoggLatan
+- _Npc::Rito<Rito Boss>:
+    notes: Blss to Rito Village
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Teba's Wife>
+- Drop down to clothes shop
+- If shaft+screw/spring, sell 400 shafts
+- If shaft+gear, sell all gears
+- If cores, drop 6 on the ground, sell the rest, pick the 6 back up
+- _Shop<Clothes Shop>:
+    notes: Buy snowquill trousers
+- _Shop<Rito Shop>:
+    notes: Buy everything
+- _Korok::T02:
+    notes: wb.dir(11:30)
+- Drop down to Cooking pod
+- _Cook<9x durian, spicy pepper + sunshroom>:
+    notes: if you dont have peppers left cook 2 sunshrooms
+- Eat cold protection food
+- Pick up 10 Arrows
+- _Npc::Rito<Teba>:
+    notes: Do tebas minigame
+- _Equipment::Bow<Falcon Bow>
+- Vah Medoh:
+    notes: Do Medoh
+- _Material<Cold Darner [1/2]>:
+      movements:
+        - to: [-3601.04, 289.25, -1816.25]
+          warp: Yes
+      notes: Has to be daytime for darners to spawn
+- _Npc::Rito<Ancient Rito song quest>
+- _Npc<Apple of my Eye Quest>
+- _Npc::Rito<Rito Boss>:
+    coord: [-3627.20, 323.57, -1830.81]
+    notes: Talk to finish the quest and get GEB
+- _Equipment::Bow<Great Eagle Bow>
+- _Shrine::AkhVaquot:
+    notes: Get core in here if you have 1 or less
+- wb .dir(5:00)
+- _Material<5x Shock arrow>:
+    notes: can smash chest with hammer if you have
+    coord: [-3557.68, 254.12, -1503.59]
+- _Shop<Beedle>:
+    coord: [-3221.02, 229.42, -1792.25]
+    notes: Buy All arrows, 1 warm darner, 3 fireflies
+- _Material<10x Wildberry>:
+    notes: Pick up around the stable
+- _Material<3 round of wood(farm all the logs around the stable)>
+- Save
+- Kill 3 Octoroks and hope for Voltfin trout:
+    notes: If you get a Voltfin trout, save again and reload; If you dont get a voltfin trout, reload and try again. Also pick up an octo baloon if possible
+    coord: [-3328,-1618]
+- _Material<Voltfin Trout>:
+    coord: [-3326.89, 224.76, -1625.51]
+- _Material<Hylian Shroom>:
+    notes: Pick up until 2 (DON'T EAT)
+- _Material<Spicy Pepper>:
+    notes: Pick up until 6 (DON'T EAT)
+    coord: [-3222.37, 225.94, -1753.81]
+- wb .dir(5:00)
+- _Korok::T19
+- _Warp::Tower::GreatPlateau:
+    line-color: "lightgreen"
+
+
+
+
+

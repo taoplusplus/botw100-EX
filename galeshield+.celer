@@ -1,0 +1,767 @@
+galeshield+:
+- _Warp::Shrine::ShaeMosah:
+    line-color: "blue"
+- wb .dir(1:00)
+- _Korok::E10
+- 2x wb .dir(3:00)
+- _Korok::E11
+- wb .dir(1:00)
+- _Korok::E09
+- jump down
+- _Boss::Talus::Igneo:
+    fury: 3
+    coord: [2151,-3010]
+- wb .dir(2:00)
+- _Korok::E06
+- wb .dir(9:00)
+- _Boss::Talus::Igneo:
+    notes: Kill with Boulderbreaker
+    coord: [2161,-3186]
+- wb .dir(12:00)
+- _Korok::E02
+- _Snap::Quest<Leviathan> 
+- wb .dir(1:30)
+- _Korok::E03
+- 2x wb .dir(4:00)
+- _Korok::E04
+- wb .dir(4:30)
+- _Korok::E05
+- _Npc::Goron<Gut Chck rock challenge>
+- _Shrine::GoraeTorr
+- _Tod::Night
+- wb .dir(2:00)
+- _Boss::Hinox::Black:
+    coord: [2918,-3565]
+- wb .dir(1:30)
+- _Korok::A01
+- wb .dir(5:00)
+- _Snap::Quest<Kilton>
+- _Npc<Kilton>:
+    coord: [3244,-3440]
+- wb .dir(7:00)
+- _Korok::A05
+- wb .dir(6:00)
+- _Korok::A10 
+- wb .dir(3:00)
+- _Snap::Quest<Blupee>
+- _Korok::A11
+- wb .dir(3:00)
+- _Korok::A12
+- 2x wb. dir(12:00)
+- _Korok::A06
+- _Boss::Hinox::Black:
+    notes: shoot from above(bomb arrows)
+    coord: [3490,-3336]
+- wb .dir(9:30)
+- _Shrine::ZunaKai
+- Trigger Xenoblade Chest
+- wb .dir(12:30):
+    notes: look at chest landing during wb
+    coord: [3360,-3650]
+- _Korok::A02
+- wb .dir(3:00)
+- _Korok::A03
+- wb .dir(4:00)
+- _Chest<Xenoblade Chest>:
+    coord: [3643,-3524]
+- wb .dir(4:00)
+- _Korok::A04
+- wb. dir(4:30): 
+    coord: [4011,-3202]
+- _Korok::A07
+- wb .dir(4:30)
+- _Korok::A13
+- wb .dir(2:30)
+- Smuggle torch and get blue flame:
+    coord: [4166,-3168]
+- Run to race start:
+    coord: [4253,-3171]
+- _Korok::A14:
+    notes: Finish korok while climbing to not have the torch go out
+- run .dir(3:00)
+- _Korok::A15:
+    notes: dont mash b after korok to not accidentally put away torch
+- walk .dir(3:00)
+- Throw torch at blue flame thingy
+- _Npc::SheikaMale<Robbie>:
+    coord: [4515.6875,-3164.5625]
+    notes: hold dpad down for right options
+- _Npc::SheikaFemale<Zuna Kai Shrinequest>
+- run out and gale:
+    gale: 1
+- _Korok::A16
+- wb .dir(0:30) far
+- enter labyrinth
+- _Shrine::TuKaloh
+- Jump down
+- _Chest<Travel Medallion>:
+    coord: [4656.5,-3558.5]
+- clip out
+- wb .dir(7:30):
+    notes: clear ragdoll
+- _Korok::A08
+- wb .dir(3:00)
+- _Korok::A09
+- wb .dir(6:30)
+- _Korok::A17
+- wb .dir(7:00) far
+- _Korok::A24
+- wb .dir(7:00) + wb .dir(4:00)
+- _Korok::A29
+- wb .dir(9:00):
+    coord: [4067.5,-2458]
+- _Korok::A28
+- wb .dir(1:30)
+- _Korok::A23
+- wb .dir(9:00)
+- _Shrine::KatosaAug
+- shieldsurf to stable
+- _Npc<Kilton picture quest>
+- _Npc<Spring of Power quest>:
+    coord: [4235.5,-2748]
+- wb .dir(10:00)
+- _Korok::A19
+- wb .dir(7:30)
+- _Korok::A22
+- wb .dir(10:00)
+- _Korok::A18
+- wb .dir(6:00)
+- _Korok::A21 
+- drop down
+- _Memory::SpringofPower
+- drop dinraal scale
+- _Shrine::TutsuwaNima
+- wb .dir(6:30)
+- _Korok::A26
+- wb .dir(10:00)
+- _Korok::A20 
+- 2x wb .dir(4:00)
+- _Korok::A27
+- wb chain to Tarrey town
+- TT dupe
+- 5Apple -> 5nHorn
+- 5Nightshade -> 5fHorn
+- 2Rice -> 2dHorn
+- 5razorshroom -> 5bass
+- 5stamella -> 5honey
+- 1ironshroom/1sunshroom/1hylianshroom/1voltfruit/1Chickaloo Tree Nut -> 5 dragon parts
+- 1sizzlefin/1chillfin -> 2 dragon parts
+- 5Banana -> 5 fhorn
+- durability transfer:
+    notes: hylian shield -> radiant shield, mipha spear -> rgc
+- dupe a bunch of GEBs and 5 rgc:
+    notes: can dupe more 
+- _Npc<Hudson>:
+    notes: give 20 wood
+    coord: [3979.25,-1597.75]
+- Place Travel medallion
+- _Cook<speedfood, fruitcake>
+- _Warp::Shrine::ShoDantu
+- 2x wb .dir(1:00)
+- _Korok::W01
+- wb .dir(9:00)
+- _Boss::Talus::Stone:
+    fury: 3
+- _Korok::G21 
+- gale + midair .dir(3:00) + midair(12:00):
+    gale: 1
+- _Korok::G16
+- wb .dir(9:00)
+- _Korok::G20
+- wb .dir(11:30)
+- _Korok::G15
+- wb .dir(1:30):
+    coord: [-4391,1217]
+- _Korok::G11
+- wb .dir(10:00)
+- Kill 2 lizalfos:
+    coord: [-4545,992]
+    notes: GEB headshots
+- wb .dir(9:00)+ wb .dir(12:00)
+- _Korok::G07
+- jump down .dir(5:00)
+- _Shrine::KemaKossasa
+- wb .dir(2:00)
+- _Korok::G08
+- shieldsurf .dir(10:30):
+    coord: [-4430,713]
+- _Korok::G04
+- wb .dir(1:00):
+    coord: [-4430,713]
+- _Korok::G05
+- wb .dir(11:00)
+- _Tod::Noon
+- _Korok::G01
+- shieldsurf .dir(5:00)
+- _Discover<Heroine Statue>
+- _Snap::Quest<Heroine Statue>
+- wb .dir(1:30):
+    coord: [-4204,262]
+- _Korok::G02
+- gale + midair .dir(3:00):
+    coord: [-3968,329]
+- Pick up rock and carry it to circle:
+    notes: use golden gauntlets
+- _Korok::G03 
+- 2x wb .dir(4:00)
+- _Korok::G06
+- wb .dir(9:00)
+- Shoot Pedestal with Shockarrow
+- _Shrine::KeehaYoog
+- wb .dir(3:00) + wb .dir(6:00)
+- _Korok::G09
+- wb .dir(7:30)
+- _Snap::Quest<Heroine Sword>:
+    coord: [-3945,982]
+- wb .dir(5:00)
+- _Boss::Talus::Rare:
+    coord: [-3804,1211]
+    fury: 3
+- wb .dir(5:30) far
+- _Tower::Gerudo
+- _Npc<Kass>:
+    notes: talk for quest
+- wb .dir(5:00)
+- Activate Sasa Kai
+- _Shrine::SasaKai
+- wb .dir(3:30):
+    coord: [-3156,2035]
+- _Korok::G34
+- wb .dir(8:00)
+- _Shrine::DaqoTah:
+    coord: [-3316,2168]
+- wb .dir(6:30)
+- _Korok::W17
+- wb .dir(5:00)
+- _Memory::KaraKaraBazaar:
+    coord: [-3194.5,2539]
+- _Npc::Rito<Ice guy quest>:
+    coord: [-3237.5,2578]
+- _Npc::Gerudo<Rhondson>:
+    coord: [-3273.5,2581.5]
+    notes: send her to TT
+- _Npc<Dako Tah quest>:
+    coord: [-3277,2546]
+- 2x wb .dir(8:00)
+- _Npc<8th heroine quest>:
+    notes: talk to guy 3 times
+    coord: [-3784,2857.5]
+- wb .dir(4:00)
+- _Korok::W42 
+- Drop down
+- _Npc::Gerudo<Wildberry quest>:
+    coord: [-3914.5,2951]
+- _Npc::Gerudo<Search for barta quest>:
+    coord: [-3914,2934]
+- _Npc::Gerudo<Finish Wildberry quest>:
+    coord: [-3834.125,2853.875]
+- _Npc::Gerudo<Flint quest>:
+    coord: [-3828.5,2884.25]
+- _Npc::Gerudo<Molduga guts quest>:
+    coord: [-3868.75,2939]
+- _Npc::Gerudo<Riju>:
+    coord: [-3884,2966]
+    notes: get thunderhelm
+- wb .dir(1:30) square
+- _Npc::Gerudo<Secret Clubs secret quest>:
+    coord: [-3787.75,2933.75]
+    notes: 3-3-3-4 (GSC [square])
+- _Warp::VahRudania:
+    line-color: "red"
+- Do DLC quest for Sharo Lun
+- _Shrine::SharoLun
+- wb .dir(5:00) square
+- _Discover<Shadow Hamlet Ruins>:
+    coord: [3034,-2276]
+- wb .dir(2:00) + wb .dir(00:30)
+- _Korok::E12 
+- wb .dir(6:00) + wb .dir(6:00)
+- _Korok::A25
+- wb .dir(7:00)
+- _Korok::A30 
+- wb .dir(2:30)
+- _Korok::A31:
+    notes: shoot with bomb arrow midair to have updraft
+- wb .dir(3:00):
+    notes: use updraft and midair
+- _Korok::A32    
+- wb .dir(5:00)
+- _Npc<Hudson>: 
+    notes: give 30 wood
+    coord: [3982,-1598]
+- wb .dir(3:00)
+- _Korok::A38
+- _Warp::Shrine::MoggLatan:
+    line-color: "lightgreen"
+- walk .dir(7:30) pick up 2 silent princess
+- wb .dir(12:00)
+- _Korok::R52
+- _Chest<Ancient Horse Gear>
+- drop down, pick up 4 silent princess
+- run to flower chase .dir(6:00)
+- _Korok::R61
+- wb .dir(6:00) square
+- _Boss::Hinox::Stal:
+    fury: 3
+    coord: [-2213.5,582.5]
+- run .dir(1:30) race start:
+    coord: [-2191.5,574.5]
+- _Korok::R62
+- wb .dir(1:30)
+- _Korok::R53
+- wb .dir(4:30) square
+- _Korok::R54
+- Jump down .dir(5:00)
+- _Korok::R55
+- wb .dir(2:00):
+    notes: can do throwaim wb if lizalfos get annoying
+- _Korok::R56
+- wb .dir(3:30)
+- _Korok::R57:
+    notes: bomb arrow
+- wb .dir(7:30)
+- _Korok::R69
+- _Korok::R68
+- wb .dir(6:00)
+- _Korok::R78
+- wb .dir(9:00)
+- _Korok::R77
+- wb .dir(9:00) super
+- _Korok::R75 
+- climb up tree
+- _Korok::R76
+- gale+ 2midair .dir(7:30)
+- _Korok::G14
+- wb .dir(1:00) super
+- _Korok::R70
+- wb .dir(9:00):
+    coord: [-2344,706]
+- _Korok::R73 
+- wb .dir(10:00):
+    coord: [-2344,706]
+- _Korok::R67
+- Can get some lotus here
+- run .dir(1:00)
+- _Korok::R66
+- run .dir(12:00)
+- _Korok::R65:
+    notes: shoot log with fire arrow -> get 1/2/3 -> ride updraft to 4 -> get 5
+- run/climb(12:00)
+- _Korok::R64
+- wb .dir(12:00)
+- _Korok::R51
+- wb .dir(7:30)
+- _Korok::R63
+- wb .dir(10:00)
+- _Korok::R50:
+    notes: snipe from above(bomb arrow)
+- wb .dir(10:30)
+- _Boss::Talus::Rare:
+    fury: 3
+    coord: [-3132,75]
+- run a bit and wb .dir(8:00)
+- _Korok::R46 
+- wb .dir(12:00)
+- _Korok::R36 
+- wb .dir(10:00):
+    coord: [-3824,-167]
+- _Korok::R35 
+- _Korok::R34: 
+    notes: shoot from above
+- wb .dir(10:00)
+- _Korok::R33
+- wb .dir(7:30)
+- _Korok::R32
+- wb .dir(1:00)
+- _Shrine::KahOkeo
+- gale+midair .dir(4:00):
+    gale: 1
+- _Korok::T36
+- 2x wb .dir(0:30)
+- _Korok::T32
+- wb .dir(10:30)
+- _Korok::T27
+- wb .dir(1:00)
+- _Korok::T26
+- wb .dir(12:00)
+- _Korok::T23 
+- wb .dir(4:30)
+- _Boss::Talus::Rare:
+    coord: [-3940,-1086]
+    notes: boulderbreaker/rgc
+- wb .dir(5:30)
+- _Korok::T28
+- run .dir(4:30)
+- _Korok::T29
+- wb .dir(2:30) square:
+    coord: [-3692.5,-794]
+- _Korok::T30
+- wb .dir(11:30)
+- _Korok::T24:
+    notes: shoot eye
+- wb .dir(0:30)
+- _Npc<Kass at Monument>:
+    notes: talk to start quest
+    coord: [-3672,-1316]
+- wb chain .dir(5:30)
+- _Tower::Tabantha
+- wb .dir(5:30)
+- _Shrine::TenaKosah
+- run .dir(7:00)
+- _Memory::AncientColumns
+- run .dir(10:00)
+- _Korok::T35
+- wb .dir(9:00):
+    coord: [-3646,-436]
+- _Korok::T37
+- wb .dir(1:00)
+- _Korok::T33
+- wb .dir(10:30) square
+- Open fairy fountain:
+    coord: [-3538,-743.5]
+- wb .dir(3:00)
+- _Korok::T31
+- wb .dir(1:00)
+- _Boss::Talus::Rare:
+    notes: use fury
+- wb .dir(2:00)
+- _Korok::T25:
+    fury: 3
+- _Tod::Morning
+- wb .dir(1:00)
+- Try to snipe dinrall horn:
+    notes: can go down to pick it up but very slow
+- midair(s) towards H72
+- _Korok::H72
+- wb .dir(10:00)
+- _Korok::T18
+- wb .dir(2:30) far
+- _Korok::H71
+- wb .dir(2:00)
+- _Korok::H68
+- wb .dir(8:00)
+- _Korok::R01
+- wb .dir(9:00) + wb .dir(6:00)
+- _Shrine::ShiraGomar
+- wb chain .dir(11:00)
+- _Korok::H69
+- wb .dir(2:00)
+- _Korok::H67
+- run .dir(6:00)
+- _Korok::H70
+- 2x wb .dir(9:30)
+- _Boss::Talus::Rare:
+    notes: fury if up
+    coord: [-2866,-1838]
+- wb .dir(1:00)
+- _Korok::H65
+- wb .dir(8:00)
+- _Korok::H66
+- wb .dir(11:30)
+- _Korok::T03 
+- build cryo block and wb 2x wb .dir(7:30)
+- _Korok::T11
+- wb .dir(10:30)
+- _Korok::T05
+- wb .dir(10:30)
+- _Discover<Hebra Trailhead Lodge>
+- wb .dir(9:00)
+- _Shrine::NoeRajee:
+    notes: shoot targets in bt
+- fly up (maybe updraft wb)
+- _Shrine::ShaWarvo
+- wb .dir(6:00) square
+- _Korok::T04
+- wb .dir(7:00)
+- _Korok::T13 
+- run warblers nest
+- _Npc::Rito<Start warblers nest quest>
+- run .dir(4:30)
+- Pick up a pepper if you have 0
+- _Korok::T16
+- wb .dir(10:00)
+- _Korok::T12
+- gale + 2wb .dir(1:30):
+    gale: 1
+- _Korok::T09
+- wb .dir(1:30)
+- _Boss::Talus::Frost:
+    notes: bouler breaker/rgc (fury if up)
+    coord: [-3702,-2344]
+- gale + midair .dir(12:00):
+    gale: 1
+- _Korok::H54
+- 2x wb .dir(4:00)
+- _Korok::H55
+- 2x wb .dir(12:00)
+- _Korok::H43
+- 2x wb .dir(11:30)
+- _Korok::H27 
+- 2x wb .dir(2:00)
+- _Shrine::ShadaNaw
+- _Tod::Night
+- wb .dir(5:00)
+- _Korok::H20
+- wb .dir(3:00) + 2x wb .dir(6:00)
+- _Korok::H28
+- Look up south for xenoblade chest
+- drop down, watch chest land midair
+- dorp down to goma assagh
+- _Shrine::GomaAsaagh:
+    notes: dont clear ragdoll at the end of shrine :)
+-  run .dir(7:00):
+    notes: shieldjump + une quipp midair to clear iceblocks, clear ragdoll after
+- _Korok::H35
+- wb .dir(3:00)
+- _Korok::H36
+- wb .dir(9:00)
+- Start DLC shrine quest
+- _Chest<Xenoblade Chest>: 
+    notes: get during trial
+    coord: [-2613.5,-2655.5]
+- _Shrine::KiahToza
+- wb .dir(6:00)
+- _Boss::Talus::Frost:
+    notes: Fury if didnt fury before
+    coord: [-2150,-3080]
+- wb .dir(6:30)
+- _Korok::H31
+- wb .dir(9:30)
+- _Korok::H29
+- wb .dir(2:00)
+- _Korok::H30
+- wb .dir(10:30)
+- _Shrine::RokUwog
+- wb .dir(1:30)
+- _Korok::H13 
+- wb .dir(1:30) far
+- _Korok::H05
+- wb .dir(3:00)
+- _Shrine::ShaGehma
+- wb .dir(5:00)
+- _Korok::H14
+- wb .dir(1:30)
+- _Korok::H06
+- 2x wb .dir(3:00)
+- _Shrine::QazaTokki
+- wb .dir(6:00)
+- _Korok::H16:
+    notes: Shoot with bomb arrow from above
+- wb .dir(9:00)
+- _Korok::H15
+- wb .dir(6:00) + wb .dir(9:00):
+    coord: [-1268,-3220]
+- _Korok::H22:
+    notes: 3 stasis hits aim a bit left of hole
+- wb .dir(4:30):
+    coord: [-1268,-3220]
+- _Korok::K11
+- wb .dir(12:00)
+- _Korok::K05
+- _Warp::Shrine::ShadaNaw:
+    line-color: "purple"
+- wb .dir(6:30)
+- _Boss::Talus::Frost:
+    coord: [-3062,-2942]
+    notes: fury if up
+    fury: 3
+- run .dir(6:00)
+- _Korok::H33
+- gale up and glide .dir(3:00):
+    gale: 1
+- _Korok::H34 
+- wb .dir(6:00)
+- _Korok::H46
+- wb .dir(4:30)
+- _Korok::H48
+- wb .dir(12:00) max height:
+    coord: [-2943,-2479]
+- _Korok::H49
+- _Korok::H50:
+    notes: run a bit .dir(12:00) and shoot .dir(4:00)
+- _Korok::H47:
+    notes: shoot .dir(12:00)
+- wb .dir(12:00)
+- _Korok::H44:
+    notes: snipe with bomb arrow .dir(10:00) (far)
+- shieldsurf .dir(4:00)
+- _Korok::H45 
+- Shieldurf a little .dir(6:00) and kill lizalfos for tail
+- wb .dir(12:00) (super)
+- _Korok::H56 
+- wb .dir(1:30)
+- _Korok::H51 
+- wb .dir(4:30)
+- cut down tree with spin attack
+- stasis, 3 hits, unstasis:
+    notes: watch out for colddamage
+- get tree into position and smash it against door
+- _Shrine::GeeHarah
+- wb .dir(12:00)+ wb .dir(6:00) + wb .dir(3:00)
+- _Korok::H57
+- wb .dir(8:00)
+- _Shrine::LannoKooh
+- run behind shrine, build cryo block
+- _Korok::H64 
+- swim to cryo block
+- wb .dir(2:00)
+- _Korok::H61 
+- wb .dir(4:00)
+- _Tower::Hebra
+- wb .dir(2:30)
+- _Discover<Pondo's Lodge>:
+    coord: [-2062,-2082]
+- wb .dir(12:00)
+- _Korok::H52
+- wb .dir(1:30)
+- _Korok::H37
+- wb .dir(4:30)
+- _Npc<Stalhorse quest>:
+    notes: at stable
+    coord: [-1640,-2596]
+- run to shrine:
+    notes: pick up wood
+- _Shrine::RinOyaa
+- wb .dir(6:00)
+- _Korok::H58
+- wb .dir(5:00)
+- _Korok::H62
+- wb .dir(2:00)
+- _Korok::H59:
+    notes: shoot with bomb arrow midair
+- wb .dir(3:00)
+- _Korok::K12
+- wb chain .dir(12:00)
+- _Korok::H38
+- wb .dir(4:00)
+- _Korok::K10 
+- _Warp::VahMedoh:
+    line-color: "yellow"
+- Medoh refight:
+    commands:
+        - EnableGalePlus
+- _Tod::Noon
+- Drop down
+- _Npc::Rito<Secret of the snowy peaks>:
+    coord: [-3628.5,-1831]
+- wb .dir(10:00)
+- _Korok::T10
+- wb .dir(3:30)
+- _Npc::Rito<Pink rito girl on top of village>:
+    coord: [-3641.5,-1788.5]
+- _Npc::Rito<Find kheel quest>:
+    coord: [-3665.5,-1761.5]
+- Shoot Bareedra Naag from here
+- wb .dir(3:00) square
+- _Korok::T15
+- _Korok::T14:
+    notes: shoot from T15 with bomb arrow
+- wb .dir(1:30) square
+- _Npc::Rito<Yellow Rito girl>:
+    coord: [-3485,-1848]
+- wb .dir(9:00):
+    notes: to cooking pod
+    coord: [-3588.5,-1803.125]
+- _Npc::Rito<Rito girl>:
+    notes: give salamon dish(salamon+goatbutter+tabanthawheat)
+- _Npc::Rito<Fyson>:
+    notes: jump down and send to TT
+    coord: [-3598.625,-1820.375]
+- _Npc<Flint guy>:
+    notes: run there and sell a flint
+    coord: [-3610.375,-1850]
+- _Shop<Rito shop>:
+    notes: buy arrows
+    coord: [-3644.375,-1819.75]
+- _Npc<Last rito girl>
+- wb .dir(9:00):
+    coord: [-3781,-1798]
+- _Korok::T17
+- gale + wb .dir(7:30)
+- _Boss::Hinox::Black:
+    fury: 3
+    coord: [-3797,-1558]
+- wb .dir(10:30)
+- warblers nest:
+    notes: 4-5-3-1-2
+    coord: [-3983.5,-1744.5]
+- _Shrine::VooLota
+- wb .dir(4:00)
+- _Shrine::BareedaNaag
+- wb .dir(1:30)
+- _Npc::Rito<Frost talus guy>:
+    notes: talk twice to finish quest
+    coord: [-3312,-1803.5]
+- run .dir(4:00)
+- _Npc<Goron Spice quest>:
+    coord: [-3259,-1784-3259,-1784]
+- Farm wood until at least 50:
+    coord: [-3258.5,-1730]
+- wb .dir(6:00)
+- _Korok::T21 
+- wb .dir(9:00) square
+- _Korok::T20
+- wb .dir(3:00) super
+- _Korok::T22
+- Kill some lizalfos if you need tails
+- wb .dir(3:00)
+- _Korok::R05 
+- shieldsurf .dir(6:00)
+- _Discover<Footrace Chek-In>:
+    coord: [-2626,-1158]
+- 2x wb .dir(6:00)
+- _Korok::R13
+- wb .dir(6:00)
+- _Korok::R17 
+- wb .dir(4:30)
+- _Boss::Hinox::Blue:
+    notes: fury if up
+    coord: [-2374,-422]
+- _Korok::R22: 
+    notes: shoot from hinox
+- _Korok::R31:
+    notes: shoot from hinox
+- wb .dir(6:00):
+    coord: [-2462,-269.5]
+- _Korok::R30
+- wb .dir(10:30)
+- _Korok::R21
+- wb .dir(9:00)
+- _Shrine::ShaeLoya
+- run .dir(12:00)
+- _Npc<Geggle>:
+    coord: [-2952,-482]
+- _Npc<Fairy Guy>:
+    coord: [-2923,-569.5]
+- wb .dir(9:00):
+    coord: [-3021.5,-582]
+- _Korok::T34
+- wb .dir(7:00)
+- _Korok::R28
+- gale + wb .dir(3:00):
+    gale: 1
+- _Korok::R29
+- gale + wb .dir(12:00):
+    gale: 1
+- _Korok::R20
+- wb .dir(1:00)
+- _Discover<Tanagar Canyon Course>:
+    coord: [-3115,-631.5]
+- _Korok::R12 
+- wb chain .dir(1:00):
+    coord: [-2778,-1486]
+- _Korok::H73
+- drop down:
+    notes: grab 1 rushroom
+- _Shrine::DunbaTaag
+- 2x wb .dir(4:00)
+- _Korok::R04
+- _Warp::VahRudania
+- Fireblgiht Refight
+- _Warp::TravelMedallion<3978.25,-1595.25>
+- _Npc<Hudson>:
+    coord: [3978.25,-1595.25]
+    notes: give him 50 wood
+- _Warp::Shrine::JitanSami:
+    line-color: "purple"
+

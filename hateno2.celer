@@ -1,0 +1,298 @@
+hateno2:
+- _Warp::Shrine::TalohNaeg:
+    line-color: "white"
+- _Tod::Morning
+- wb .dir(2:30)
+- Collect 3 Silent Princess
+- Open Fairy fountain
+- _Snap::Quest<Fairy Fountain>:
+    coord: [1977.5,865.5]
+- wb .dir(7:30)
+- Grab 3 Chickens on top
+- _Npc::SheikaMale<Cucco quest>:
+    coord: [1843.5,961.5]
+- _Npc::SheikaFemale<playtime with cottla quest>:
+    coord: [1893.5,967]
+- Get 3 chickens in the back:
+    coord: [1891,1039]
+- _Npc::SheikaMale<Pikango>:
+    coord: [1827,1001]
+- Light torches
+- Grab cucco
+- run to koko
+- _Npc::SheikaFemale<Koko>:
+    notes: All 4 quests
+    coord: [1800,1014]
+- _Tod::Night
+- Can grab beetle here
+- _Npc::SheikaFemale<Arrows of burning heat>:
+    coord: [1826,1041]
+- Grab last chicken:
+    coord: [1860,1013.5]
+- _Npc::SheikaMale<Finish Cucco quest>:
+    coord: [1838,966.5]
+- Pick up 5 fireflies:
+    coord: [1903,994.5]
+- _Npc::SheikaFemale<Firefly quest>:
+    coord: [1900,1038.5]
+- wb .dir(9:00)
+- _Npc::SheikaFemale<Impa>:
+    coord: [1775.5,985.5]
+- _Npc::SheikaFemale<Paya>
+- run out
+- _Tod::Night:
+    coord: [1826.5,1009]
+- Run .dir(9:00)
+- _Korok::D03 
+- Run .dir(10:30)
+- _Korok::D02 
+- wb .dir(6:00)
+- _Korok::D04 
+- _Korok::D05:
+    notes: shoot emblem from d04
+- wb .dir(4:00)
+- _Korok::D12 
+- wb .dir(11:00)
+- _Korok::D08
+- _Korok::D06:
+    notes: shoot emblem; can get beetle but its slow
+- 2x wb .dir(1:00)
+- _Korok::N07
+- shieldsurf .dir(6:00)
+- _Korok::N08
+- shieldurf .dir(2:00)
+- _Korok::N10:
+    notes: use 2 gales
+    gale: 2
+- _Korok::N09
+- 2x wb .dir(6:00)
+- _Korok::D07
+- wb .dir(7:30)
+- _Korok::D11
+- wb .dir(9:00)
+- _Korok::D10 
+- shieldsurf .dir(9:30)
+- _Korok::D09
+- wb .dir(1:00)
+- Pick up 3 Silent Princess:
+    coord: [1872,819]
+- wb .dir(4:30)
+- wait for dorian
+- _Shrine::LaknaRokee:
+    notes: kill blademaster with normal arrow headshots or aa(if you already have windcleaver)
+- wb .dir(8:00)+ wb .dir(4:00)
+- _Korok::N28
+- _Shrine::KamUrog
+- 2x wb .dir(6:00)
+- _Boss::Talus::Stone:
+    fury: 1
+    notes: fury
+    coord: [2520,1910]
+- wb .dir(8:00)
+- _Korok::D52 
+- wb .dir(6:30)
+- _Boss::Hinox::Stal:
+    notes: arrow+fury
+    fury: 1
+    coord: [1944,2386]
+- wb .dir(6:00)
+- Get sapphire in stash:
+    coord: [1960,2624]
+- jump down .dir(10:30)
+- _Korok::D59
+- wb .dir(11:00)
+- _Shrine::TotoSah
+- run out and cryo block .dir(1:00)
+- _Korok::D56
+- 2x wb .dir(10:00)
+- _Korok::D55
+- wb .dir(12:00)
+- _Shrine::HaDahamar
+- wb .dir(6:00) low
+- _Discover<little and big twin bridge>
+- wb .dir(1:30)
+- land on horse and park close-ish to the stable:
+    coord: [1828,2123]
+- run to stable
+- _Npc<Miskos treassure quest>:
+    coord: [1761,1922]
+- _Npc<Horse catching quest>
+- gale up:
+    gale: 1
+- _Korok::D42 
+- wb .dir(4:30)
+- _Korok::D51 
+- wb .dir(1:30)
+- _Memory::AshSwamp
+- wb .dir(10:00)
+- Pick up 3 rushrooms
+- run .dir(10:30)
+- _Korok::N33
+- wb .dir(4:00)
+- _Tod::Morning:
+    coord: [2369,1843]
+    notes: sleep in bed
+- _Npc<Kam Urog shrine quest>
+- get 3 honey
+- run/climb .dir(1:30)
+- _Korok::N34
+- wb .dir(12:00)
+- _Korok::N27
+- wb .dir(1:30)
+- _Korok::N26 
+- wb .dir(5:00)
+- _Korok::N35
+- wb .dir(3:00)
+- _Korok::N36 
+- wb .dir(2:00)
+- _Korok::N37
+- wb .dir(6:00)
+- _Korok::N38
+- wb .dir(5:00) square
+- _Boss::Talus::Stone:
+    fury: 1
+    notes: fury
+    coord: [3208,1902]
+- wb .dir(8:00)
+- _Korok::N41
+- wb .dir(8:00)
+- Shoot all the targets
+- _Korok::N45 
+- run/wb .dir(5:00)
+- _Korok::N46 
+- wb .dir(4:00)
+- _Korok::N51 
+- wb .dir(2:30)
+- _Korok::N52 
+- wb .dir(3:00)
+- _Korok::N52 
+- gale + wb .dir(3:00):
+    gale: 1
+- _Korok::N53 
+- gale up:
+    gale: 1
+- _Npc<Bolson>:
+    coord: [3329,2273]
+    notes: invite to TT
+- wb .dir(1:00)
+- _Npc<Nebb(weaponkid)>:
+    coord: [3366,2155]
+    notes: show all weapons
+- _Npc<Secret of the cedars quest>:
+    coord: [3428,2163]
+- _Npc<Cricket quest>:
+    coord: [3628,2106]
+- wb .dir(2:30)
+- _Npc<Sheep Rustlers>:
+    coord: [3629,2108]
+- wb .dir(3:00)
+- Tech Lab
+- Buy all pictures
+- gale up:
+    gale: 1
+- _Korok::N47
+- 2x wb .dir(1:30):
+    coord: [4084,1708]
+- _Korok::N32
+- _Shrine::TalohOah
+- wb .dir(4:30)
+- _Korok::N40 
+- 2x wb .dir(11:30)
+- _Korok::N25
+- wb .dir(0:30)
+- _Korok::Z62 
+- _Korok::Z61 
+- 2x wb .dir(12:00)
+- _Korok::Z58
+- _Korok::Z59
+- wb .dir(11:00)
+- _Boss::Hinox::Blue:
+    coord: [4442,360]
+    fury: 3
+    notes: 3 fury
+- wb .dir(8:00)
+- Shoot 3 Rubbels
+- _Korok::Z56
+- wb .dir(4:30)
+- Can get lizalfos camp if you need tails
+- _Korok::Z57
+- wb .dir(9:00)
+- _Korok::N12
+- wb .dir(9:00)
+- _Korok::Z55
+- wb .dir(9:00)
+- _Korok::Z54
+- wb .dir(7:00)
+- _Korok::N14 
+- wb .dir(11:00)
+- _Korok::Z51 
+- wb .dir(0:30)
+- _Shrine::RuccoMaag
+- wb .dir(4:00)
+- _Korok::Z53
+- run a bit
+- _Korok::Z52 
+- wb .dir(2:00)
+- _Korok::Z45 
+- wb .dir(3:00)
+- _Npc<Kass>:
+    notes: talk for quest
+    coord: [4183,368]
+- wb .dir(1:00)
+- land on pedestal
+- _Shrine::ShaiYota
+- wb .dir(10:00)
+- _Korok::Z46
+- wb .dir(1:30)
+- _Korok::Z36
+- gale + 2x midair .dir(9:00):
+    gale: 1
+- _Korok::Z35
+- wb .dir(1:30) + wb .dir(12:00)
+- _Korok::Z28
+- wb .dir(1:30)
+- _Korok::Z10 
+- wb .dir(10:30)
+- _Korok::Z09
+- wb .dir(9:00)
+- _Korok::A56
+- can get lizalfos tails here if you need
+- wb .dir(8:00)
+- _Korok::A57
+- wb .dir(12:00)
+- _Shrine::KenaiShakah
+- _Warp::Shrine::MonyaToma:
+    line-color: "blue"
+- wb .dir(0:30)
+- _Korok::K23
+- wb .dir(11:00)
+- _Npc<Leviathan bones quest>:
+    coord: [-1542,-1804]
+- _Tod::Night
+- wb .dir(9:00)
+- _Discover<Maritta Exchange Ruins>
+- _Korok::K22
+- wb .dir(1:30)
+- _Korok::K20
+- wb .dir(2:00)
+- _Korok::K21 
+- wb .dir(1:30)
+- _Korok::K15
+- wb .dir(9:00)
+- _Korok::H63 
+- wb .dir(2:00)
+- _Korok::K13
+- wb .dir(5:00)
+- _Boss::Hinox::Stal:
+    coord: [-1270,-2094]
+    fury: 3
+    notes: 3 fury
+- wb .dir(10:30)
+- _Korok::K14
+- gale:
+    gale: 1
+- blss to K09
+- _Korok::K09
+- drop down
+- _Shrine::RonaKachta
+

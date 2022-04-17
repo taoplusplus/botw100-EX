@@ -1,0 +1,281 @@
+bloodmoon:
+- _Warp::Shrine::DaqaKoh:
+    line-color: "purple"
+- wb .dir(4:00)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946,-2199]
+- wb .dir(10:00)
+- _Npc::Goron<Drillshaft kid>:
+    coord: [1795,-2251]
+- wb .dir(4:30):
+    coord: [2000,-2103]
+- _Korok::E20
+- wb .dir(3:00)
+- _Korok::E21
+- wb .dir(11:00)
+- _Boss::Talus::Igneo:
+    coord: [2139,-2181]
+- _Npc::Goron<Brothers Roast>
+- wb .dir(7:30):
+    coord: [1812,-1898]
+- Carry Roast up
+- _Tod::Night
+- _Shrine::KayraMah
+- SCW into DLC shrine
+- wb .dir(3:00) + wb .dir(9:00)
+- _Shrine::RinuHonika
+- wb .dir(1:30) square
+- gale and activate shrine:
+    gale: 1
+    coord: [2335,-2018]
+- wb .dir(3:00)
+- _Boss::Talus::Igneo:
+    fury: 3
+    coord: [2375,-2028]
+- gale + glide .dir(10:30)
+- _Korok::E22
+- wb .dir(3:00)
+- _Korok::E23
+- wb .dir(7:30)
+- _Korok::E28
+- wb .dir(7:30)
+- _Shrine::QuaRaym:
+    notes: delay bm here
+- wb .dir(8:00)
+- _Korok::E35
+- wb .dir(9:30)
+- _Korok::K32
+- 2x wb .dir(1:00)
+- _Korok::K31
+- wb .dir(10:00)
+- _Tower::Woodland:
+    gale: 1
+- wb .dir(11:00) 
+- _Material<Korok Mask>
+- wb .dir(10.30)
+- _Npc<Oaki  Quest>
+- wb .dir(3:00)
+- _Npc<Walton>
+- Jump down and activate Keo Ruug
+- _Npc<Hestu>:
+    notes: all bows, as many weapons as possible, rest shields
+- Get 2 Eggs
+- _Equipment::Weapon<Master Sword>:
+    notes: Don't do sword trials yet
+    coord: [451,-2159]
+- _Shop<Deku tree>:
+    notes: buy arrows, all shrooms
+- _Npc<Ice Rod quest>
+- Walk past oaki
+- Pick up 6 Nightshades
+- Get 5 fogs/10 Crickets
+- _Shrine::DaagChokah:
+    notes: Get core if you have 1
+- _Warp::Shrine::KeoRuug
+- _Shrine::KeoRuug
+- Do sword Trials:
+    notes: SAVE
+    coord: [436,-2152]
+- run to Maag halan quest
+- _Npc<Maag halan quest korok>:
+    coord: [604.5,-2263]
+- wb .dir(1:30)
+- _Shrine::MaagHalan
+- wb .dir(7:30) super
+- _Npc<Kuhn Sidajj quest>:
+    coord: [227,-2041]
+- wb .dir(7:30)
+- _Shrine::KuhnSidajj:
+    notes: keep shield
+- wb chain .dir(6:00) top of castle
+- _Korok::X06:
+    commands:
+        - ToggleHyruleCastle
+- drop down
+- get 5 AA
+- _Korok::X05
+- run out, drop down to race start:
+    coord: [-254.75,-1030.75]
+- _Korok::X10
+- wb .dir(9:00)
+- _Korok::X07
+- wb .dir(1:30)
+- _Material<Royal Guards Cap>:
+    coord: [-253.98, 336.07, -1080.48]
+- run out, set up skewbounce
+- Ganon:
+    coord: [-255.125,-1116.5]
+    notes: calam 1cycle
+- _Korok::X03
+- jump out, midair .dir(3:00)
+- _Material<Naydra Scale>:
+    coord: [-173.75,-1167.25]
+- Run .dir(3:30)
+- _Korok::X02
+- run .dir(11:00)
+- _Material<Dinraal Scale>:
+    coord: [-188.25,-1230]
+- wb .dir(1:00)
+- _Korok::K30
+- wb .dir(6:00)
+- Enter castle trough the gate
+- _Korok::X11
+- Run to Talus:
+    coord: [-133,-957.5]
+- _Boss::Talus::Rare:
+    fury: 3
+    coord: [-174.5,-1039.5]
+- Fly up, shoot eye with bomb arrow
+- _Material<Farosh Fang>
+- Run to Library
+- Kill 5 Lizalfos
+- Get King's study location:
+    coord: [-173.5,-1123]
+- Run to Saas Ko'sah, light torch
+- _Shrine::SaasKosah
+- Kill 3 Lizalfos
+- _Material<Star Fragment>
+- _Korok::X01
+- wb .dir(8:00)
+- _Korok::X04
+- drop down
+- Shoot 2 eyes
+- get rgc
+- kill lizalfos
+- _Boss::Hinox::Stal
+- _Equipment::Shield<Hylian Shield>:
+    coord: [-492,-1010.5]
+- bomb walls and run to korok
+- _Korok::X13
+- run to next korok and gale:
+    gale: 1
+- _Korok::X08
+- shoot switch and glide to fang
+- blow up wall
+- Kill lizalfos
+- _Material<Dinraal Fang>
+- fly up
+- gale twice to zeldas study:
+    gale: 2
+- pick up 1 silent princess
+- _Memory::HyruleCastle
+- _Snap::Quest<Guardian Skywatcher>:
+    coord: [-360,-995.875]
+- run .dir(9:00)
+- _Korok::X09
+- _Discover<Zeldas Room>
+- wb .dir(5:30)
+- _Korok::X14
+- wb .dir(8:00)
+- _Korok::X17
+- wb .dir(2:30)
+- _Korok::X16
+- _Discover<Second gatehouse>:
+    notes: drop down and discover(dont trigger lynel)
+    coord: [-167.75,-902]
+- wb .dir(2:00)
+- _Korok::X12
+- wb .dir(7:00)
+- _Discover<Dining Hall>:
+    notes: pick up raw meat, banana, sunshroom, hylianshroom, rushroom, gourmet meat
+    coord: [-117.5,-835.75]
+- Run to korok
+- _Korok::X15
+- Run out again
+- Blow up both rubbels
+- Kill lizalfos
+- _Material<Royal Guard Uniform>
+- Clip oob and clip back in at Guards Chamber:
+    coord: [-175.26, 211.33, -889.62]
+    notes: fury 3 times to kill lizalfos
+- Run to korok
+- _Korok::X19:
+    notes: can pick up aa if low on springs(need 3-4 for zora camp)
+- run out and gale up
+- _Discover<First Gatehouse>:
+    notes: dont trigger lynel, can shoot guardian if low on parts, use gale
+    coord: [-379.25,-829.5]
+- glide to korok
+- _Korok::X18
+- wb .dir(3:30)
+- _Korok::X23
+- jump down
+- _Discover<Observation Room>:
+    gale: 1
+- _Korok::X21 
+- _Korok::X22
+- wb .dir(9:00) square
+- _Korok::X20 
+- wb .dir(7:00)
+- _Korok::X24
+- jump down
+- _Korok::C16 
+- _Korok::X25
+- wb .dir(6:00)
+- _Korok::C33:
+    commands:
+        - ToggleHyruleCastle
+- _Snap::Quest<Guardian Stalker>
+- wb .dir(7:00)
+- _Korok::C35
+- _Memory::SacredGrounds
+- wb .dir(7:00)
+- _Korok::C43
+- wb .dir(10:00)
+- _Korok::C42
+- wb .dir(9:00)
+- _Korok::C40
+- _Korok::C41:
+    notes: Shoot from C40
+- wb .dir(8:00)
+- _Korok::C39
+- wb .dir(9:00):
+    coord: [-1093,199]
+- _Korok::C38
+- wb .dir(9:00):
+    coord: [-1307,230]
+- Kill Lizalfos for tail:
+    coord: [-1339,226.5]
+- Pick up 18 acorns: 
+    notes: 6 around each tree
+    coord: [-1360,215.5]
+- _Korok::C36
+- can kill other lizalfos for arrows:
+    coord: [-1392.5,254]
+- _Chest<Midna's Helmet>
+- wb .dir(10:00)
+- _Korok::R49
+- wb .dir(12:00)
+- _Korok::R48
+- wb .dir(8:30)
+- _Discover<Jeddo Bridge>
+- wb .dir(0:30)
+- _Korok::R41
+- shieldsurf .dir(6:30)
+- _Npc::Rito<Kass>:
+    notes: talk for quest
+    coord: [-1676.5,54.5]
+- wb .dir(9:00)
+- _Shrine::SheemDagoze
+- wb .dir(12:00)
+- _Korok::R38
+- wb .dir(7:00)
+- _Korok::R47 
+- wb .dir(10:00)
+- _Korok::R37
+- wb chain .dir(8:00)
+- _Npc::Rito<Kass>:
+    coord: [-2783,218]
+    notes: talk for quest
+- _Shrine::MijahRokee
+- wb .dir(6:00)
+- _Korok::R72
+- wb .dir(9:00)
+- _Korok::R71
+- wb .dir(12:00)
+- _Korok::R59
+
+
+
+
+

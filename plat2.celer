@@ -1,0 +1,175 @@
+plat2:
+- wb .dir(1:00):
+    movements:
+        - to: [3290.75,-448.75]
+          warp: Yes
+- _Korok::Z17
+- _Npc::ZoraMale<Zora King>:
+    notes: finish ruta main quest and pick up spear
+- _Npc::ZoraFemale<Ceremomial Song quest>:
+    coord: [3303.5,-503]
+- _Npc::ZoraMale<Diving is Beatuy quest>:
+    coord: [3293,-518.8125]
+    notes: finish quest
+- _Npc::ZoraMale<A wife washed away quest>:
+    coord: [3346.75,-473.25]
+- 2x wb .dir(11:00)
+- Zora Monument:
+    coord: [3208.5,-737.5]
+- wb .dir(6:00)
+- Activate Dagah Keek:
+    coord: [3096,-458]
+- grab 1 fleet lotus on the way to dagah Keek
+- _Shrine::DagahKeek
+- wb .dir(4:30)
+- _Boss::Hinox::Blue:
+    coord: [2930,-299]
+    notes: Bomb arrows
+- Pick up 6 Fleet Lotus:
+    coord: [2983,-165]
+- _Korok::Z24
+- wb .dir(4:30)
+- _Korok::Z34
+- wb .dir(9:30)
+- Start Letterquest and shoot letter:
+    coord: [2747,-75.5]
+- wb .dir(5:00)
+- Zora Monument:
+    coord: [2839.5,188]
+- wb .dir(12:00)
+- Zora Monument:
+    coord: [2870.5,-67.5]
+- Run to next zora monument:
+    coord: [2877.5,-33.5]
+- _Discover<Oren Bridge>:
+    coord: [2878.5,39.5]
+- wb .dir(10:30)
+- Pick up Letter:
+    coord: [2747,-75.5]
+- Blss Letter:
+    coord: [1770,-53]
+- wb .dir(10:00)
+- _Discover<Moor Garison Ruins>
+- wb .dir(12:00)
+- _Shrine::ShehRata
+- wb .dir(1:30)
+- _Korok::Z12
+- _Warp::Shrine::ShaeMosah
+- _Npc::Goron<Goron Boss>:
+    coord: [1712.5,-2448]
+    notes: make sure bow is not on fire when talking to him
+- wb .dir(2:30)
+- _Korok::E16
+- wb .dir(5:00):
+    coord: [1912,-2377]
+- _Korok::E17
+- 2x wb .dir(4:00)
+- _Shrine::DaqaKoh
+- wb .dir(4:00)
+- Rudania:
+    gale: 1
+    fury: 2
+
+- skip yunobo:
+    time-override: 200 #(rudania)
+    movements:
+        - to: [1598.25,-2433.25]
+          warp: Yes
+- _Npc::Goron<Brothers Roast guy>:
+    coord: [1648.625,-2461.5]
+- _Npc::Goron<Igneo Talus guy>:
+    coord: [1687,-2473.5]
+- _Npc::Gerudo<Amber quest>:
+    coord: [1686,-2446.75]
+- _Npc::Goron<Gorno Boss>:
+    notes: finish rudania quest
+    coord: [1707.75,-2447]
+- _Equipment::Weapon<Boulder Breaker>
+- _Warp::SOR
+- _Korok::P09
+- _Equipment::Weapon<One Hit Obliterator>:
+    notes: EQUIP SNOWQUILL TROUSERS
+- _Warp::Shrine::KehNamut
+- wb .dir(4:00) enemy camp
+- Clear camp:
+    notes: shoot in the middle of moblins, shoot wizzrobe, jumpstirke with OHO, clean up rest
+    coord: [-1215,2119]
+- _Shrine::EtsuKorima
+- wb .dir(3:00)
+- _Snap::Quest<Stalhorse>
+- clear camp:
+    notes: reequipp phantom armor, shoot with icearrows
+    coord: [-864.5,2154]
+- _Shrine::RuvoKorbah
+- wb .dir(1:30)
+- clear camp
+- _Shrine::RohtaChigah
+- wb .dir(9:30) + wb .dir(9:30)
+- clear camp
+- pick up 1 honey
+- _Shrine::YowakaIta
+- wb .dir(6:00)
+- _Korok::P06
+- wb .dir(5:00)
+- _Korok::P10
+- wb .dir(10:30)
+- _Boss::Talus::Stone:
+    fury: 1
+    coord: [-1073,1666]
+- run to big log
+- _Korok::P04
+- run to camp, get 10 arrows
+- run to korok
+- _Korok::P05
+- wb .dir(1:30)
+- _Korok::P02
+- run to rocks
+- _Korok::P01
+- wb .dir(10:30)
+- _Korok::C81
+- wb .dir(12:00)
+- _Korok::C61
+- wb .dir(10:00)
+- _Korok::C60
+- wb .dir(1:30)
+- _Shrine::KaamYatak
+- wb .dir(9:00)
+- _Korok::C57
+- _Discover<Gleeok Bridge>
+- wb .dir(7:30)
+- _Korok::C58
+- wb .dir(7:30) square
+- _Korok::C59
+- wb .dir(12:00)
+- _Korok::R74
+- gale+wb .dir(11:00):
+    gale: 1
+- _Memory::SanidinPark
+- wb .dir(7:30)
+- Tame royal horse
+- Ride to stable getting R79 along the way
+- _Korok::R79
+- Register Horse:
+    coord: [-1442,1274]
+- _Npc<Royal Horse quest>
+- wb .dir(9:00)
+- _Shrine::RotaOoh
+- wb .dir(8:00)
+- _Korok::C85
+- wb .dir(7:30)
+- _Korok::R80
+- wb .dir(2:00) square
+- _Korok::C86
+- wb .dir(7:00)
+- _Korok::G29
+- wb .dir(2:30)
+- _Korok::C87
+- wb .dir(5:30)
+- _Korok::C89
+- wb .dir(10:00)
+- _Shrine::DahKaso
+- wb .dir(6:00)
+- _Boss::Hinox::Blue:
+        coord: [-1705,1781]
+        notes: RGC
+- _Korok::C88
