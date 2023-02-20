@@ -1,4 +1,4 @@
-Project: 
+_project: 
   Name: EX Route (Pancake's route)
   Authors:
     - MrPancakeTurtle
@@ -7,7 +7,7 @@ Project:
   Description: BotW 100% EX Speedrun
   Url: no url
 
-Route:
+_route:
 
   - 100% Extended:   
     - __use__ plateau
